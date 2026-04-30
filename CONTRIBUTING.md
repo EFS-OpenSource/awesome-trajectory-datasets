@@ -1,0 +1,60 @@
+# Contributing to Awesome Trajectory Datasets
+
+Thank you for helping grow this list! Please follow the guidelines below to keep the list consistent and high-quality.
+
+## What belongs here
+
+A dataset belongs in this list if it:
+
+1. **Contains trajectory data** — time-stamped positions (x/y or lat/lon) of moving objects
+2. **Is publicly accessible** — free download, registration-only, or clearly documented access request process
+3. **Has a citable source** — a peer-reviewed paper, technical report, DOI, or an official project website
+4. **Has a stated license** — the terms of use are documented
+
+Domains covered: road traffic (vehicles + VRUs), aerial (UAV/aircraft), maritime.
+
+## What does NOT belong here
+
+- Purely simulated datasets without real-world counterpart (unless widely used as benchmark)
+- Datasets behind a paywall with no free tier
+- Private or institutional datasets with no public access path
+- Image/video datasets without extracted trajectory annotations
+
+## How to add a dataset
+
+1. **Fork** this repository
+2. **Edit** `README.md` — add a row to the most appropriate table
+3. **Follow the row format:**
+
+```markdown
+| **Dataset Name** | YEAR | Location | sensors | 🚗🚌🚶🚲 | size description | LICENSE | [Paper](url) · [Data](url) |
+```
+
+4. Keep descriptions concise — one line per dataset
+5. Use the correct participant symbols from the legend
+6. **Open a Pull Request** with the title `Add: <Dataset Name>`
+
+## Column conventions
+
+| Column | What to put |
+|--------|-------------|
+| **Dataset** | Bold name, no link in name cell (links go in the Links column) |
+| **Year** | Year of first public release or associated paper |
+| **Location** | City/region + country, or "Multi-country", or "Global" |
+| **Sensors** | Comma-separated abbreviations: `cam`, `lid`, `rad`, `gnss`, `drone`, `ais`, `ads-b` |
+| **Participants** | Emoji symbols from the legend (e.g. `🚗🚶🚲`) |
+| **Size** | Tracks count, duration, or scenes — whatever is most informative |
+| **License** | Short name: `CC-BY 4.0`, `CC-BY-NC`, `MIT`, `public domain`, `custom (free academic)`, etc. |
+| **Links** | `[Paper](url)` and/or `[Data](url)`, optionally `· 🔍 [View](url)` |
+
+## Requesting a dataset
+
+If you know a dataset should be on the list but don't want to add it yourself, open a GitHub Issue with the label `dataset request` and fill in the details.
+
+## Trajectory Trace integration
+
+If your dataset is available or can be made available on [Trajectory Trace](https://city.app.sdk-cloud.de/), mention it in your PR. We will add the 🔍 badge with a direct link so users can explore the data without downloading anything.
+
+## Code of Conduct
+
+Be respectful. This is a community resource. Treat contributors and maintainers with courtesy.
