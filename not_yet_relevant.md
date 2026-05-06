@@ -81,3 +81,18 @@ Many transit authorities publish vehicle positions in [GTFS Realtime](https://gt
 | **Datex II / NDW** | Netherlands | 🚗🚌 (loop detectors + floating car) | REST / XML | custom (free) | 📡 [Portal](https://www.ndw.nu/pagina/en/11/open_data) |
 | **data.gouv.fr traffic** | France | 🚗 | REST | Licence Ouverte 2.0 | 📡 [Portal](https://transport.data.gouv.fr/) |
 | **Oslo kommune traffic** | Oslo, Norway | 🚗🚲 | REST (JSON) | NLOD | 📡 [Portal](https://www.vegvesen.no/en/traffic/traffic-information/traffic-data-api/) |
+
+---
+
+## Benchmarks & Challenges
+
+| Name | Domain | Task | Links |
+|------|--------|------|-------|
+| **TrajNet++** | Pedestrian | Trajectory forecasting | [Website](https://trajnet.epfl.ch/) |
+| **Waymo Motion Prediction Challenge** | Road traffic | Multi-agent motion prediction | [Website](https://waymo.com/open/challenges/2024/motion-prediction/) |
+| **Argoverse Motion Forecasting** | Road traffic | Single/multi-agent forecasting | [Website](https://eval.ai/web/challenges/challenge-page/454/overview) |
+| **nuScenes Prediction** | Road traffic | Vehicle + pedestrian prediction | [Website](https://www.nuscenes.org/prediction) |
+| **INTERACTION Prediction** | Road traffic | Interactive multi-agent | [Website](https://interaction-dataset.com/prediction-benchmark) |
+| **VisDrone Challenge** | Aerial view | Detection + tracking | [Website](https://github.com/VisDrone/VisDrone-Dataset) |
+
+---

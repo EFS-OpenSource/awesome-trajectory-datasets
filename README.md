@@ -34,6 +34,7 @@ Covers both **historical datasets** (downloadable archives) and **live data stre
 | **OpenDD** | 2020 · Germany (7 roundabouts) · drone · 84,000+ tracks | CC-BY 4.0 | [Paper](https://dl.acm.org/doi/10.1145/3397536.3422207) · [Data](https://l3pilot.eu/data/opendd) |
 | **INTERACTION** | 2019 · Multi-country · drone + traffic cam · ~16 locations, merges + roundabouts + intersections | CC-BY-NC-SA | [Paper](https://arxiv.org/abs/1910.03088) · [Data](https://interaction-dataset.com/) |
 | **CitySim** | 2023 · USA (12 locations) · drone (4K) · ~1,140 trajectories | CC-BY 4.0 | [Paper](https://arxiv.org/abs/2208.11036) · [Data](https://github.com/UCF-SST-Lab/UIVeri) |
+| **UrbanIng-V2X** | 2025 · Ingolstadt, Germany · LiDAR + RGB cam + thermal cam + GNSS/IMU · V2X cooperative perception at 3 intersections, 34 sequences × 20 s, ~712k annotated instances at 10 Hz, 13 object classes | CC-BY-NC-ND 4.0 | [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/A9LPY7) [Github](https://github.com/thi-ad/UrbanIng-V2X) [Website](https://thi-ad.github.io/urbaning/) [Paper](https://arxiv.org/pdf/2510.23478) [🔍](https://city.app.sdk-cloud.de/location/30?start=20241127145920&end=20241127150000)|
 | **Ko-PER Intersection** | 2014 · Aschaffenburg, Germany · infrared cam + laser · 6 scenarios | custom | [Paper](https://ieeexplore.ieee.org/document/6957972) · [Data](https://www.uni-ulm.de/in/mrm/forschung/datensaetze/) |
 | **TRAF** | 2019 · China (multiple cities) · drone · 50 sequences | CC-BY-NC | [Paper](https://arxiv.org/abs/1910.03726) · [Data](https://github.com/C-C-Y/TRAF) |
 | **SIND** | 2022 · Changsha, China · drone · ~14k tracks at signalized intersections | custom | [Paper](https://arxiv.org/abs/2209.02297) · [Data](https://github.com/SOTIF-AVLab/SinD) |
@@ -52,9 +53,10 @@ Covers both **historical datasets** (downloadable archives) and **live data stre
 
 ### Just Vehicles 🚗🚌🚚🏍️
 
-| Dataset | Description | Participants | License | Links |
-|---------|-------------|--------------|---------|-------|
+| Dataset | Description | License | Links |
+|---------|-------------|---------|-------|
 | **Automatum** | Germany (different places in Bavaria) · drone · 30 h | CC BY-ND / demo | [Paper](https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf) · [Data](https://automatum-data.com/de#dataset) · [🔍](https://city.app.sdk-cloud.de/location/29) · [🔍](https://city.app.sdk-cloud.de/location/32?start=20260222110000&end=20260222110453)
+| **DLR Highway Traffic (DLR HT)** | 2024 · Brunswick, Germany · Test Bed Lower Saxony · trajectory data (position, speed, acceleration, class) + weather + road condition data, OpenSCENARIO export | CC-BY-NC-SA 4.0 | [Paper](https://doi.org/10.1109/IAVVC61942.2025.11219599) · [Data](https://doi.org/10.5281/zenodo.18540070) |
 | **highD** | 2018 · Germany (A3, A9) · drone · 110,000+ tracks, 147 h | custom (free academic) | [Paper](https://arxiv.org/abs/1810.05642) · [Data](https://levelxdata.com/highd-dataset/) |
 | **exiD** | 2022 · Germany (A3, A40, A42) · drone · 69,172 tracks at highway exits | custom (free academic) | [Paper](https://arxiv.org/abs/2204.03940) · [Data](https://levelxdata.com/exid-dataset/) |
 | **NGSIM US-101 & I-80** | 2006 · California, USA · roadside cam · ~9,000 tracks | public domain | [Docs](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · [Data](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj) |
@@ -63,26 +65,13 @@ Covers both **historical datasets** (downloadable archives) and **live data stre
 
 ### Just Vulnerable Road Users (VRUs) 🚶🚲🛴
 
-| Dataset | Description | Participants | License | Links |
-|---------|-------------|--------------|---------|-------|
+| Dataset | Description | License | Links |
+|---------|-------------|---------|-------|
 | **ETH Pedestrian** | 2009 · Zurich, Switzerland · overhead cam · 750 pedestrians, 2 scenes | custom (academic) | [Paper](https://ieeexplore.ieee.org/document/5206559) · [Data](https://icu.ee.ethz.ch/research/datsets.html) |
 | **UCY Crowds** | 2007 · Cyprus / Israel · cam · 786 pedestrians, 3 scenes | custom (academic) | [Data](https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data) |
 | **TrajNet++** | 2021 · Multi-source · cam + drone · benchmark aggregating ETH, UCY + others | CC-BY | [Paper](https://arxiv.org/abs/2007.03639) · [Data](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge) |
 | **PIE** | 2019 · Toronto, Canada · in-vehicle cam · 293,000 frames, 1,842 pedestrians with intention labels | custom (non-commercial) | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Rasouli_PIE_A_Large-Scale_Dataset_and_Models_for_Pedestrian_Intention_Estimation_ICCV_2019_paper.html) · [Data](http://data.nvision2.eecs.yorku.ca/PIE_dataset/) |
 | **ATC Shopping Center** | 2013 · Osaka, Japan · 3D range sensors · ~100k tracks over 92 days | CC-BY | [Paper](https://doi.org/10.1007/s10514-013-9348-y) · [Data](https://irc.atr.jp/crest2010_HRI/ATC_dataset/) |
-
----
-
-## Benchmarks & Challenges
-
-| Name | Domain | Task | Links |
-|------|--------|------|-------|
-| **TrajNet++** | Pedestrian | Trajectory forecasting | [Website](https://trajnet.epfl.ch/) |
-| **Waymo Motion Prediction Challenge** | Road traffic | Multi-agent motion prediction | [Website](https://waymo.com/open/challenges/2024/motion-prediction/) |
-| **Argoverse Motion Forecasting** | Road traffic | Single/multi-agent forecasting | [Website](https://eval.ai/web/challenges/challenge-page/454/overview) |
-| **nuScenes Prediction** | Road traffic | Vehicle + pedestrian prediction | [Website](https://www.nuscenes.org/prediction) |
-| **INTERACTION Prediction** | Road traffic | Interactive multi-agent | [Website](https://interaction-dataset.com/prediction-benchmark) |
-| **VisDrone Challenge** | Aerial view | Detection + tracking | [Website](https://github.com/VisDrone/VisDrone-Dataset) |
 
 ---
 
