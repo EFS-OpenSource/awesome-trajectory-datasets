@@ -1,3 +1,5 @@
+Covers both **historical datasets** (downloadable archives) and **live data streams** (real-time feeds you can connect to today).
+
 - [Aerial (UAV / Aircraft)](#aerial-uav--aircraft)
 - [Maritime](#maritime)
 - [Live Data Streams](#live-data-streams)
@@ -6,6 +8,7 @@
   - [Aviation (ADS-B Streams)](#aviation-ads-b-streams)
   - [Road Traffic (Open Feeds)](#road-traffic-open-feeds)
 - [Benchmarks & Challenges](#benchmarks--challenges)
+
 
 
 
