@@ -4,7 +4,7 @@
 
 Covers both **historical datasets** (downloadable archives) and **live data streams** (real-time feeds you can connect to today).
 
-**See data in action:** Several datasets and live feeds below are already integrated and publicly explorable on [**Trajectory Trace**](https://city.app.sdk-cloud.de/) — a next-generation traffic data management platform supporting both historical replay and live streaming. Look for the 🔍 badge.
+**See data in action:** Several datasets and live feeds below are already integrated and publicly explorable on [**Trajectory Trace**](https://city.app.sdk-cloud.de/). Look for the 🔍 badge.
 
 ---
 
@@ -13,11 +13,8 @@ Covers both **historical datasets** (downloadable archives) and **live data stre
 - [Legend](#legend)
 - [Road Traffic](#road-traffic)
   - [Mixed Traffic (Vehicles + VRUs)](#mixed-traffic-vehicles--vrus)
-  - [Highways & Motorways](#highways--motorways)
-  - [Urban Intersections](#urban-intersections)
-  - [Roundabouts](#roundabouts)
-  - [Pedestrians & Cyclists](#pedestrians--cyclists)
-  - [Vehicle-centric / Ego-motion](#vehicle-centric--ego-motion)
+  - [Vehicles](#vehicles)
+  - [VRUs (Pedestrians & Cyclists)](#vrus-pedestrians--cyclists)
 - [Aerial (UAV / Aircraft)](#aerial-uav--aircraft)
 - [Maritime](#maritime)
 - [Live Data Streams](#live-data-streams)
@@ -45,7 +42,7 @@ Covers both **historical datasets** (downloadable archives) and **live data stre
 | 📡 | Live / real-time stream |
 | 🗄️ | Historical archive available |
 
-**Sensor abbreviations:** `cam` = camera, `lid` = LiDAR, `rad` = radar, `gnss` = GPS/GNSS, `drone` = aerial camera, `ais` = AIS transponder, `ads-b` = ADS-B transponder, `gtfs-rt` = GTFS Realtime feed
+**Sensor abbreviations:** `cam(s)` = camera(s), `lid(s)` = LiDAR(s), `rad(s)` = radar(s), `gps` = GPS/GNSS, `drone(s)` = aerial camera(s), `ais` = AIS transponder, `ads-b` = ADS-B transponder, `gtfs-rt` = GTFS Realtime feed
 
 **License abbreviations:** `CC-BY` = Creative Commons Attribution, `CC-BY-NC` = non-commercial, `ODbL` = Open Database License, `MIT` = MIT License, `custom` = dataset-specific license (check source)
 
@@ -55,64 +52,54 @@ Covers both **historical datasets** (downloadable archives) and **live data stre
 
 ### Mixed Traffic (Vehicles + VRUs)
 
-| Dataset | Year | Location | Sensors | Participants | Size | License | Links |
-|---------|------|----------|---------|--------------|------|---------|-------|
-| **DLR Urban Traffic (DLR UT)** | 2025 | Brunswick, Germany | drone, cam | 🚗🚌🚶🚲🏍️ | ~12 h, inner ring road | CC-BY 4.0 | [Paper](https://doi.org/10.5281/zenodo.15025237) · [Data](https://doi.org/10.5281/zenodo.15025237) · 🔍 [View](https://city.app.sdk-cloud.de/) |
-| **pNEUMA** | 2020 | Athens, Greece | drone (10 drones) | 🚗🚌🚶🚲🏍️ | ~4 h, city center | CC-BY-NC 4.0 | [Paper](https://doi.org/10.1038/s41597-020-0450-6) · [Data](https://open-traffic.epfl.ch/) |
-| **INTERACTION** | 2019 | Multi-country | drone, traffic cam | 🚗🚌🚶🚲 | ~16 locations | CC-BY-NC-SA | [Paper](https://arxiv.org/abs/1910.03088) · [Data](https://interaction-dataset.com/) |
-| **CitySim** | 2023 | USA (12 locations) | drone (4K) | 🚗🚌🚶🚲🏍️ | ~1140 trajectories | CC-BY 4.0 | [Paper](https://arxiv.org/abs/2208.11036) · [Data](https://github.com/UCF-SST-Lab/UIVeri) |
-| **Ko-PER Intersection** | 2014 | Aschaffenburg, Germany | infrared cam, laser | 🚗🚶🚲 | 6 scenarios | custom | [Paper](https://ieeexplore.ieee.org/document/6957972) · [Data](https://www.uni-ulm.de/in/mrm/forschung/datensaetze/) |
-| **TRAF** | 2019 | China (multiple) | drone | 🚗🚌🚶🚲🏍️ | 50 sequences | CC-BY-NC | [Paper](https://arxiv.org/abs/1910.03726) · [Data](https://github.com/C-C-Y/TRAF) |
-| **SIND** | 2022 | Changsha, China | drone | 🚗🚌🚶🚲🏍️ | ~14k tracks, signalized int. | custom | [Paper](https://arxiv.org/abs/2209.02297) · [Data](https://github.com/SOTIF-AVLab/SinD) |
+Datasets recorded from overhead / infrastructure perspective covering multiple road user classes simultaneously.
 
-### Highways & Motorways
+| Dataset | Description | Participants | License | Links |
+|---------|-------------|--------------|---------|-------|
+| **TUMDOT-MUC** | 2022 · Munich, Germany · 12 drones · 6 locations, >3 h each, 700 m continuous section along Rheinstraße, 0.08 s resolution | 🚗🚌🚶🚲🏍️ | CC-BY-NC 4.0 | [Paper](https://doi.org/10.1007/s42421-024-00101-5) · [Data](https://www.mos.ed.tum.de/en/vt/research/data-sets/tumdot-muc/) |
+| **DLR Urban Traffic (DLR UT)** | 2023 · Brunswick, Germany · cams + radars · ~12 h, inner ring road | 🚗🚌🚶🚲🏍️ | CC-BY 4.0 | [Paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.174000540.08271707/v1) · [Data](https://doi.org/10.5281/zenodo.15025237) · 🔍 [View](https://city.app.sdk-cloud.de/location/24?start=20230924155955&end=20230924161205) |
+| **pNEUMA** | 2018 · Athens, Greece · 10 drones · ~4 h, city center | 🚗🚌🚶🚲🏍️ | CC-BY-NC 4.0 | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0968090X19310320?via%3Dihub) · [Data](https://open-traffic.epfl.ch/index.php/downloads/) |
+| **inD** | 2020 · Germany (4 intersections) · drone · 11,500+ tracks | 🚗🚌🚶🚲 | custom (free academic) | [Paper](https://arxiv.org/abs/1911.07602) · [Data](https://levelxdata.com/ind-dataset/) |
+| **rounD** | 2020 · Germany (3 roundabouts) · drone · 13,746 tracks | 🚗🚌🚶🚲🏍️ | custom (free academic) | [Paper](https://arxiv.org/abs/2011.06713) · [Data](https://levelxdata.com/round-dataset/) |
+| **OpenDD** | 2020 · Germany (7 roundabouts) · drone · 84,000+ tracks | 🚗🚌🚶🚲🏍️ | CC-BY 4.0 | [Paper](https://dl.acm.org/doi/10.1145/3397536.3422207) · [Data](https://l3pilot.eu/data/opendd) |
+| **INTERACTION** | 2019 · Multi-country · drone + traffic cam · ~16 locations, merges + roundabouts + intersections | 🚗🚌🚶🚲 | CC-BY-NC-SA | [Paper](https://arxiv.org/abs/1910.03088) · [Data](https://interaction-dataset.com/) |
+| **CitySim** | 2023 · USA (12 locations) · drone (4K) · ~1,140 trajectories | 🚗🚌🚶🚲🏍️ | CC-BY 4.0 | [Paper](https://arxiv.org/abs/2208.11036) · [Data](https://github.com/UCF-SST-Lab/UIVeri) |
+| **Ko-PER Intersection** | 2014 · Aschaffenburg, Germany · infrared cam + laser · 6 scenarios | 🚗🚶🚲 | custom | [Paper](https://ieeexplore.ieee.org/document/6957972) · [Data](https://www.uni-ulm.de/in/mrm/forschung/datensaetze/) |
+| **TRAF** | 2019 · China (multiple cities) · drone · 50 sequences | 🚗🚌🚶🚲🏍️ | CC-BY-NC | [Paper](https://arxiv.org/abs/1910.03726) · [Data](https://github.com/C-C-Y/TRAF) |
+| **SIND** | 2022 · Changsha, China · drone · ~14k tracks at signalized intersections | 🚗🚌🚶🚲🏍️ | custom | [Paper](https://arxiv.org/abs/2209.02297) · [Data](https://github.com/SOTIF-AVLab/SinD) |
+| **Argoverse 2 Motion** | 2023 · 6 US cities · LiDAR + cam · 250,000 scenarios | 🚗🚌🚶🚲🏍️ | CC-BY-NC-SA 4.0 | [Paper](https://arxiv.org/abs/2301.00493) · [Data](https://www.argoverse.org/av2.html) |
+| **nuScenes** | 2020 · Boston + Singapore · LiDAR + cam + radar · 1,000 scenes × 20 s | 🚗🚌🚶🚲🏍️ | CC-BY-NC-SA | [Paper](https://arxiv.org/abs/1929.13868) · [Data](https://www.nuscenes.org/) |
+| **Waymo Open Motion** | 2021 · USA (various) · LiDAR + cam · 100,000 segments | 🚗🚌🚶🚲🏍️ | custom (non-commercial) | [Paper](https://arxiv.org/abs/2104.10133) · [Data](https://waymo.com/open/data/motion/) |
+| **Lyft Level 5** | 2020 · Palo Alto, USA · LiDAR + cam · 1,118 h, 170,000 scenes | 🚗🚌🚶🚲 | custom (non-commercial) | [Paper](https://arxiv.org/abs/2104.13949) · [Data](https://self-driving.lyft.com/level5/data/) |
 
-| Dataset | Year | Location | Sensors | Participants | Size | License | Links |
-|---------|------|----------|---------|--------------|------|---------|-------|
-| **highD** | 2018 | Germany (A3, A9) | drone | 🚗🚌 | 110,000+ tracks, 147 h | custom (free academic) | [Paper](https://arxiv.org/abs/1810.05642) · [Data](https://levelxdata.com/highd-dataset/) |
-| **exiD** | 2022 | Germany (A3, A40, A42) | drone | 🚗🚌 | 69,172 tracks, highway exits | custom (free academic) | [Paper](https://arxiv.org/abs/2204.03940) · [Data](https://levelxdata.com/exid-dataset/) |
-| **NGSIM US-101 & I-80** | 2006 | California, USA | roadside cam | 🚗🚌 | ~9000 tracks | public domain | [Paper](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · [Data](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj) |
-| **Shifts (vehicle)** | 2022 | Multi-country | gnss | 🚗 | 1M+ km, distributional shift study | CC-BY 4.0 | [Paper](https://arxiv.org/abs/2107.07455) · [Data](https://github.com/yandex-research/shifts) |
+### Vehicles
 
-### Urban Intersections
+Datasets focused on vehicle trajectories — highways, ego-vehicle recordings, and large-scale driving archives.
 
-| Dataset | Year | Location | Sensors | Participants | Size | License | Links |
-|---------|------|----------|---------|--------------|------|---------|-------|
-| **inD** | 2020 | Germany (4 intersections) | drone | 🚗🚌🚶🚲 | 11,500+ tracks | custom (free academic) | [Paper](https://arxiv.org/abs/1911.07602) · [Data](https://levelxdata.com/ind-dataset/) |
-| **OpenDD** | 2020 | Germany (7 roundabouts) | drone | 🚗🚌🚶🚲🏍️ | 84,000+ tracks | CC-BY 4.0 | [Paper](https://dl.acm.org/doi/10.1145/3397536.3422207) · [Data](https://l3pilot.eu/data/opendd) |
-| **Argoverse 2 Motion** | 2023 | 6 US cities | LiDAR, cam | 🚗🚌🚶🚲🏍️ | 250,000 scenarios | CC-BY-NC-SA 4.0 | [Paper](https://arxiv.org/abs/2301.00493) · [Data](https://www.argoverse.org/av2.html) |
-| **nuScenes** | 2020 | Boston + Singapore | LiDAR, cam, rad | 🚗🚌🚶🚲🏍️ | 1000 scenes × 20 s | CC-BY-NC-SA | [Paper](https://arxiv.org/abs/1929.13868) · [Data](https://www.nuscenes.org/) |
-| **Waymo Open Motion** | 2021 | USA (various) | LiDAR, cam | 🚗🚌🚶🚲🏍️ | 100,000 segments | custom (non-commercial) | [Paper](https://arxiv.org/abs/2104.10133) · [Data](https://waymo.com/open/data/motion/) |
-| **Lyft Level 5** | 2020 | Palo Alto, USA | LiDAR, cam | 🚗🚌🚶🚲 | 1118 h, 170,000 scenes | custom (non-commercial) | [Paper](https://arxiv.org/abs/2104.13949) · [Data](https://self-driving.lyft.com/level5/data/) |
+| Dataset | Description | Participants | License | Links |
+|---------|-------------|--------------|---------|-------|
+| **highD** | 2018 · Germany (A3, A9) · drone · 110,000+ tracks, 147 h | 🚗🚌 | custom (free academic) | [Paper](https://arxiv.org/abs/1810.05642) · [Data](https://levelxdata.com/highd-dataset/) |
+| **exiD** | 2022 · Germany (A3, A40, A42) · drone · 69,172 tracks at highway exits | 🚗🚌 | custom (free academic) | [Paper](https://arxiv.org/abs/2204.03940) · [Data](https://levelxdata.com/exid-dataset/) |
+| **NGSIM US-101 & I-80** | 2006 · California, USA · roadside cam · ~9,000 tracks | 🚗🚌 | public domain | [Docs](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · [Data](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj) |
+| **Shifts** | 2022 · Multi-country · GNSS · 1M+ km, distributional shift benchmark | 🚗 | CC-BY 4.0 | [Paper](https://arxiv.org/abs/2107.07455) · [Data](https://github.com/yandex-research/shifts) |
+| **KITTI** | 2012 · Karlsruhe, Germany · LiDAR + cam + GNSS · 389 sequences | 🚗🚶🚲 | custom (non-commercial) | [Website](https://www.cvlibs.net/datasets/kitti/) |
+| **BDD100K** | 2020 · USA (various) · cam · 100k videos, 10 annotation tasks | 🚗🚌🚶🚲🏍️ | BSD 3-Clause | [Paper](https://arxiv.org/abs/1805.04687) · [Data](https://www.bdd100k.com/) |
+| **Argoverse 1** | 2019 · Pittsburgh + Miami · LiDAR + cam + HD map · 324,557 sequences | 🚗🚌🚶🚲 | CC-BY-NC-SA 4.0 | [Paper](https://arxiv.org/abs/1911.02620) · [Data](https://www.argoverse.org/av1.html) |
+| **nuPlan** | 2023 · USA + Singapore · LiDAR + cam · 1,500 h driving | 🚗🚌🚶🚲 | CC-BY-NC-SA | [Paper](https://arxiv.org/abs/2106.11810) · [Data](https://www.nuscenes.org/nuplan) |
+| **Waymo Open Perception** | 2020 · USA · LiDAR + cam · 2,030 segments × 20 s | 🚗🚌🚶🚲🏍️ | custom (non-commercial) | [Paper](https://arxiv.org/abs/1912.04838) · [Data](https://waymo.com/open/data/perception/) |
 
-### Roundabouts
+### VRUs (Pedestrians & Cyclists)
 
-| Dataset | Year | Location | Sensors | Participants | Size | License | Links |
-|---------|------|----------|---------|--------------|------|---------|-------|
-| **rounD** | 2020 | Germany (3 roundabouts) | drone | 🚗🚌🚶🚲🏍️ | 13,746 tracks | custom (free academic) | [Paper](https://arxiv.org/abs/2011.06713) · [Data](https://levelxdata.com/round-dataset/) |
-| **OpenDD** | 2020 | Germany (7 roundabouts) | drone | 🚗🚌🚶🚲🏍️ | 84,000+ tracks | CC-BY 4.0 | [Paper](https://dl.acm.org/doi/10.1145/3397536.3422207) · [Data](https://l3pilot.eu/data/opendd) |
+Datasets focused on pedestrian and cyclist trajectories, including indoor crowds and intention estimation.
 
-### Pedestrians & Cyclists
-
-| Dataset | Year | Location | Sensors | Participants | Size | License | Links |
-|---------|------|----------|---------|--------------|------|---------|-------|
-| **ETH Pedestrian** | 2009 | Zurich, Switzerland | cam (overhead) | 🚶 | 750 pedestrians, 2 scenes | custom (academic) | [Paper](https://ieeexplore.ieee.org/document/5206559) · [Data](https://icu.ee.ethz.ch/research/datsets.html) |
-| **UCY Crowds** | 2007 | Cyprus / Israel | cam | 🚶 | 786 pedestrians, 3 scenes | custom (academic) | [Paper](https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data) · [Data](https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data) |
-| **Stanford Drone (SDD)** | 2016 | Stanford, USA | drone | 🚶🚲🚗🏍️ | 19,000+ tracks, 8 scenes | custom (academic) | [Paper](https://cvgl.stanford.edu/projects/uav_data/) · [Data](https://cvgl.stanford.edu/projects/uav_data/) |
-| **TrajNet++** | 2021 | Multi-source | cam, drone | 🚶 | benchmark aggregation | CC-BY | [Paper](https://arxiv.org/abs/2007.03639) · [Data](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge) |
-| **PIE (Pedestrian Intention)** | 2019 | Toronto, Canada | in-vehicle cam | 🚶 | 293,000 frames, 1842 pedestrians | custom (non-commercial) | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Rasouli_PIE_A_Large-Scale_Dataset_and_Models_for_Pedestrian_Intention_Estimation_ICCV_2019_paper.html) · [Data](http://data.nvision2.eecs.yorku.ca/PIE_dataset/) |
-| **nuScenes-Lidarseg** | 2021 | Boston + Singapore | LiDAR | 🚶🚲🚗 | part of nuScenes | CC-BY-NC-SA | [Data](https://www.nuscenes.org/nuimages) |
-| **ATC Shopping Center** | 2013 | Osaka, Japan | 3D range sensors | 🚶 | ~100k tracks over 92 days | CC-BY | [Paper](https://doi.org/10.1007/s10514-013-9348-y) · [Data](https://irc.atr.jp/crest2010_HRI/ATC_dataset/) |
-
-### Vehicle-centric / Ego-motion
-
-| Dataset | Year | Location | Sensors | Participants | Size | License | Links |
-|---------|------|----------|---------|--------------|------|---------|-------|
-| **KITTI** | 2012 | Karlsruhe, Germany | LiDAR, cam, gnss | 🚗🚶🚲 | 389 sequences | custom (non-commercial) | [Paper](https://www.cvlibs.net/datasets/kitti/) · [Data](https://www.cvlibs.net/datasets/kitti/) |
-| **BDD100K** | 2020 | USA (various) | cam | 🚗🚌🚶🚲🏍️ | 100k videos, 10 tasks | BSD 3-Clause | [Paper](https://arxiv.org/abs/1805.04687) · [Data](https://www.bdd100k.com/) |
-| **Argoverse 1** | 2019 | Pittsburgh + Miami | LiDAR, cam, HD map | 🚗🚌🚶🚲 | 324,557 sequences | CC-BY-NC-SA 4.0 | [Paper](https://arxiv.org/abs/1911.02620) · [Data](https://www.argoverse.org/av1.html) |
-| **nuPlan** | 2023 | USA + Singapore + Pittsburgh + Boston | LiDAR, cam | 🚗🚌🚶🚲 | 1,500 h driving | CC-BY-NC-SA | [Paper](https://arxiv.org/abs/2106.11810) · [Data](https://www.nuscenes.org/nuplan) |
-| **Waymo Open Perception** | 2020 | USA | LiDAR, cam | 🚗🚌🚶🚲🏍️ | 2030 segments × 20 s | custom (non-commercial) | [Paper](https://arxiv.org/abs/1912.04838) · [Data](https://waymo.com/open/data/perception/) |
+| Dataset | Description | Participants | License | Links |
+|---------|-------------|--------------|---------|-------|
+| **ETH Pedestrian** | 2009 · Zurich, Switzerland · overhead cam · 750 pedestrians, 2 scenes | 🚶 | custom (academic) | [Paper](https://ieeexplore.ieee.org/document/5206559) · [Data](https://icu.ee.ethz.ch/research/datsets.html) |
+| **UCY Crowds** | 2007 · Cyprus / Israel · cam · 786 pedestrians, 3 scenes | 🚶 | custom (academic) | [Data](https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data) |
+| **Stanford Drone (SDD)** | 2016 · Stanford, USA · drone · 19,000+ tracks across 8 campus scenes | 🚶🚲🚗🏍️ | custom (academic) | [Website](https://cvgl.stanford.edu/projects/uav_data/) |
+| **TrajNet++** | 2021 · Multi-source · cam + drone · benchmark aggregating ETH, UCY + others | 🚶 | CC-BY | [Paper](https://arxiv.org/abs/2007.03639) · [Data](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge) |
+| **PIE** | 2019 · Toronto, Canada · in-vehicle cam · 293,000 frames, 1,842 pedestrians with intention labels | 🚶 | custom (non-commercial) | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Rasouli_PIE_A_Large-Scale_Dataset_and_Models_for_Pedestrian_Intention_Estimation_ICCV_2019_paper.html) · [Data](http://data.nvision2.eecs.yorku.ca/PIE_dataset/) |
+| **ATC Shopping Center** | 2013 · Osaka, Japan · 3D range sensors · ~100k tracks over 92 days | 🚶 | CC-BY | [Paper](https://doi.org/10.1007/s10514-013-9348-y) · [Data](https://irc.atr.jp/crest2010_HRI/ATC_dataset/) |
 
 ---
 
