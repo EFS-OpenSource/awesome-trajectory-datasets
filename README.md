@@ -24,14 +24,12 @@ A curated list of open trajectory datasets for road traffic (vehicles & VRUs) �
 |---------|-------------|---------|-------|
 | TUMDOT-MUC | 2022 · Munich, Germany · 12 drones · 6 locations, >3 h each, 700 m continuous section along Rheinstraße, 0.08 s resolution | CC-BY-NC 4.0 | [Paper](https://doi.org/10.1007/s42421-024-00101-5) · [Data](https://www.mos.ed.tum.de/en/vt/research/data-sets/tumdot-muc/) · [🔍](https://city.app.sdk-cloud.de/location/12) |
 | DLR Urban Traffic (DLR UT) | 2023 · Brunswick, Germany · cams + radars · 12 h, inner ring road | CC-BY 4.0 | [Paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.174000540.08271707/v1) · [Data](https://doi.org/10.5281/zenodo.15025237) · [🔍](https://city.app.sdk-cloud.de/location/24?start=20230924155955&end=20230924161205) |
-| pNEUMA | 2018 · Athens, Greece · 10 drones · 4 days, each ~4 h, city center | CC-BY-NC 4.0 | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0968090X19310320?via%3Dihub) · [Data](https://open-traffic.epfl.ch/index.php/downloads/) |
-| KITTI | 2012 · Karlsruhe, Germany · LiDAR + cam + GNSS · 389 sequences | custom (non-commercial) | [Website](https://www.cvlibs.net/datasets/kitti/) |
+| UrbanIng-V2X | 2025 · Ingolstadt, Germany · LiDAR + RGB cam + thermal cam + GNSS/IMU · V2X cooperative perception at 3 intersections, 34 sequences × 20 s, ~712k annotated instances at 10 Hz, 13 object classes | CC-BY-NC-ND 4.0 | [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/A9LPY7) [Github](https://github.com/thi-ad/UrbanIng-V2X) [Website](https://thi-ad.github.io/urbaning/) [Paper](https://arxiv.org/pdf/2510.23478) [🔍](https://city.app.sdk-cloud.de/location/30?start=20241127145920&end=20241127150000)|
 | inD | 2020 · Germany (4 intersections) · drone · 11,500+ tracks | custom (free academic) | [Paper](https://arxiv.org/abs/1911.07602) · [Data](https://levelxdata.com/ind-dataset/) |
 | rounD | 2020 · Germany (3 roundabouts) · drone · 13,746 tracks | custom (free academic) | [Paper](https://arxiv.org/abs/2011.06713) · [Data](https://levelxdata.com/round-dataset/) |
 | OpenDD | 2020 · Germany (7 roundabouts) · drone · 84,000+ tracks | CC-BY 4.0 | [Paper](https://dl.acm.org/doi/10.1145/3397536.3422207) · [Data](https://l3pilot.eu/data/opendd) |
 | INTERACTION | 2019 · Multi-country · drone + traffic cam · ~16 locations, merges + roundabouts + intersections | CC-BY-NC-SA | [Paper](https://arxiv.org/abs/1910.03088) · [Data](https://interaction-dataset.com/) |
 | CitySim | 2023 · USA (12 locations) · drone (4K) · ~1,140 trajectories | CC-BY 4.0 | [Paper](https://arxiv.org/abs/2208.11036) · [Data](https://github.com/UCF-SST-Lab/UIVeri) |
-| UrbanIng-V2X | 2025 · Ingolstadt, Germany · LiDAR + RGB cam + thermal cam + GNSS/IMU · V2X cooperative perception at 3 intersections, 34 sequences × 20 s, ~712k annotated instances at 10 Hz, 13 object classes | CC-BY-NC-ND 4.0 | [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/A9LPY7) [Github](https://github.com/thi-ad/UrbanIng-V2X) [Website](https://thi-ad.github.io/urbaning/) [Paper](https://arxiv.org/pdf/2510.23478) [🔍](https://city.app.sdk-cloud.de/location/30?start=20241127145920&end=20241127150000)|
 | Ko-PER Intersection | 2014 · Aschaffenburg, Germany · infrared cam + laser · 6 scenarios | custom | [Paper](https://ieeexplore.ieee.org/document/6957972) · [Data](https://www.uni-ulm.de/in/mrm/forschung/datensaetze/) |
 | TRAF | 2019 · China (multiple cities) · drone · 50 sequences | CC-BY-NC | [Paper](https://arxiv.org/abs/1910.03726) · [Data](https://github.com/C-C-Y/TRAF) |
 | SIND | 2022 · Changsha, China · drone · ~14k tracks at signalized intersections | custom | [Paper](https://arxiv.org/abs/2209.02297) · [Data](https://github.com/SOTIF-AVLab/SinD) |
@@ -53,6 +51,7 @@ A curated list of open trajectory datasets for road traffic (vehicles & VRUs) �
 | Dataset | Description | License | Links |
 |---------|-------------|---------|-------|
 | Automatum | Germany (different places in Bavaria) · drone · 30 h | CC BY-ND / demo | [Paper](https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf) · [Data](https://automatum-data.com/de#dataset) · [🔍](https://city.app.sdk-cloud.de/location/29) · [🔍](https://city.app.sdk-cloud.de/location/32?start=20260222110000&end=20260222110453)
+| pNEUMA | 2018 · Athens, Greece · 10 drones · 4 days, each ~4 h, city center | CC-BY-NC 4.0 | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0968090X19310320?via%3Dihub) · [Data](https://open-traffic.epfl.ch/index.php/downloads/) [🔍](https://city.app.sdk-cloud.de/location/38)|
 | DLR Highway Traffic (DLR HT) | 2024 · Brunswick, Germany · Test Bed Lower Saxony · trajectory data (position, speed, acceleration, class) + weather + road condition data, OpenSCENARIO export | CC-BY-NC-SA 4.0 | [Paper](https://doi.org/10.1109/IAVVC61942.2025.11219599) · [Data](https://doi.org/10.5281/zenodo.18540070) |
 | highD | 2018 · Germany (A3, A9) · drone · 110,000+ tracks, 147 h | custom (free academic) | [Paper](https://arxiv.org/abs/1810.05642) · [Data](https://levelxdata.com/highd-dataset/) |
 | exiD | 2022 · Germany (A3, A40, A42) · drone · 69,172 tracks at highway exits | custom (free academic) | [Paper](https://arxiv.org/abs/2204.03940) · [Data](https://levelxdata.com/exid-dataset/) |
@@ -107,9 +106,7 @@ If your dataset is integrated or can be integrated into [Trajectory Trace](https
 
 ## Related Lists
 
-- [awesome-autonomous-vehicles](https://github.com/autonomousvision/awesome-autonomous-vehicles)
-- [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis)
-- [awesome-human-motion](https://github.com/derikon/awesome-human-motion)
+- [awesome-public-datasets#transportation](https://github.com/awesomedata/awesome-public-datasets#transportation)
 
 ---
 
