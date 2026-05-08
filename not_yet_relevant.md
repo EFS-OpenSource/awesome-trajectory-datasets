@@ -11,6 +11,28 @@ Covers both **historical datasets** (downloadable archives) and **live data stre
 
 
 
+## Road Traffic
+Too commercial? -> Maybe aggregate to one or two entries 
+- **[inD](https://levelxdata.com/ind-dataset/)** - 2020 · Germany (4 intersections) · drone · 11,500+ tracks · custom (free academic) · [Paper](https://arxiv.org/abs/1911.07602)  -> mixed
+- **[rounD](https://levelxdata.com/round-dataset/)** - 2020 · Germany (3 roundabouts) · drone · 13,746 tracks · custom (free academic) · [Paper](https://arxiv.org/abs/2011.06713)  -> vehicles
+- **[highD](https://levelxdata.com/highd-dataset/)** - 2018 · Germany (A3, A9) · drone · 110,000+ tracks, 147 h · custom (free academic) · [Paper](https://arxiv.org/abs/1810.05642)   -> vehicles
+- **[exiD](https://levelxdata.com/exid-dataset/)** - 2022 · Germany (A3, A40, A42) · drone · 69,172 tracks at highway exits · custom (free academic) · [Paper](https://arxiv.org/abs/2204.03940)  -> vehicles
+- [uniD](https://levelxdata.com/unid-dataset/)  -> mixed
+
+Too much focus on raw data
+- **[Argoverse 1](https://www.argoverse.org/av1.html)** - 2019 · Pittsburgh + Miami · LiDAR + cam + HD map · 324,557 sequences · CC-BY-NC-SA 4.0 · [Paper](https://arxiv.org/abs/1911.02620)
+- **[Argoverse 2 Motion](https://www.argoverse.org/av2.html)** - 2023 · 6 US cities · LiDAR + cam · 250,000 scenarios · CC-BY-NC-SA 4.0 · [Paper](https://arxiv.org/abs/2301.00493)
+- **[nuScenes](https://www.nuscenes.org/)** - 2020 · Boston + Singapore · LiDAR + cam + radar · 1,000 scenes × 20 s · CC-BY-NC-SA · [Paper](https://arxiv.org/abs/1929.13868)
+- **[nuPlan](https://www.nuscenes.org/nuplan)** - 2023 · USA + Singapore · LiDAR + cam · 1,500 h driving · CC-BY-NC-SA · [Paper](https://arxiv.org/abs/2106.11810)
+- **[Waymo Open Motion](https://waymo.com/open/data/motion/)** - 2021 · USA (various) · LiDAR + cam · 100,000 segments · custom (non-commercial), Registration via Google required · [Paper](https://arxiv.org/abs/2104.10133)
+- **[Waymo Open Perception](https://waymo.com/open/data/perception/)** - 2020 · USA · LiDAR + cam · 2,030 segments × 20 s · custom (non-commercial) · [Paper](https://arxiv.org/abs/1912.04838)
+- **[BDD100K](https://www.bdd100k.com/)** - 2020 · USA (various) · cam · 100k videos, 10 annotation tasks · BSD 3-Clause · [Paper](https://arxiv.org/abs/1805.04687)
+- **[VisDrone](https://github.com/VisDrone/VisDrone-Dataset)** - 2021 · China (multiple cities) · drone cam · 288 video clips · custom (non-commercial) · [Paper](https://arxiv.org/abs/2001.06303)
+- **[Shifts](https://github.com/yandex-research/shifts)** - 2022 · Multi-country · GNSS · 1M+ km, distributional shift benchmark · CC-BY 4.0 · [Paper](https://arxiv.org/abs/2107.07455)
+
+Not accessible
+- **[Lyft Level 5](https://self-driving.lyft.com/level5/data/)** - 2020 · Palo Alto, USA · LiDAR + cam · 1,118 h, 170,000 scenes · custom (non-commercial) · [Paper](https://arxiv.org/abs/2104.13949)
+- **[Stanford Drone (SDD)](https://cvgl.stanford.edu/projects/uav_data/)** - 2016 · Stanford, USA · drone · 19,000+ tracks across 8 campus scenes · CC BY-NC-SA 3.0, Direct Download -> Link is not working right now
 
 ## Aerial (UAV / Aircraft) ✈️
 
@@ -97,5 +119,25 @@ Many transit authorities publish vehicle positions in [GTFS Realtime](https://gt
 | **nuScenes Prediction** | Road traffic | Vehicle + pedestrian prediction | [Website](https://www.nuscenes.org/prediction) |
 | **INTERACTION Prediction** | Road traffic | Interactive multi-agent | [Website](https://interaction-dataset.com/prediction-benchmark) |
 | **VisDrone Challenge** | Aerial view | Detection + tracking | [Website](https://github.com/VisDrone/VisDrone-Dataset) |
+
+---
+
+
+
+## See Data in Action
+
+[![Trajectory Trace](https://img.shields.io/badge/Trajectory%20Trace-Live%20Platform-blue?style=for-the-badge)](https://city.app.sdk-cloud.de/)
+
+[Trajectory Trace](https://city.app.sdk-cloud.de/) is an open platform for traffic trajectory data management, visualization, and analysis. A key design goal is the seamless combination of historical archives and live streaming feeds in a single interface - replay a research dataset alongside a live GTFS-RT bus feed or real-time AIS stream. Datasets and feeds marked with 🔍 are publicly accessible there - no account required. Features include:
+
+- 3D map navigation with free viewpoint control
+- Live streaming + historical replay in one unified view
+- Connect GTFS-RT, MQTT, or custom feeds alongside static datasets
+- Trajectory filtering by road user class (vehicle, pedestrian, cyclist, …)
+- Traffic volume histograms and heat maps
+- Event detection and scenario analysis
+- GraphQL API for custom queries
+
+→ [Try the live demo](https://city.app.sdk-cloud.de/) · [Read the docs](https://city.app.sdk-cloud.de/docs/en/) · [API reference](https://city.app.sdk-cloud.de/api/graphql)
 
 ---
