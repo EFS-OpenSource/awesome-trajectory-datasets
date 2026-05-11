@@ -7,7 +7,7 @@ A curated list of open trajectory datasets for road traffic (vehicles & VRUs) - 
 - Sometimes Info and Data are not in the same place. In that case, name leads to Info and Data is linked seperately.
 
 - Data access variates: It can be "Direct Download", "Registration Required" or "On Request"
----
+
 
 ## Contents
 
@@ -19,7 +19,6 @@ A curated list of open trajectory datasets for road traffic (vehicles & VRUs) - 
 - [Related Lists](#related-lists)
 - [Licensce](#license)
 
----
 
 ## Mixed Traffic 🚗🚌🚚🏍️ 🚶🚲🛴
 
@@ -34,6 +33,8 @@ A curated list of open trajectory datasets for road traffic (vehicles & VRUs) - 
 - **[INTERACTION](https://interaction-dataset.com/)** - 2019 · Multi-country · drone + traffic cam · ~16 locations, merges + roundabouts + intersections · Custom License (NC), On Request · [Paper](https://arxiv.org/abs/1910.03088) · [GIT](https://github.com/interaction-dataset/interaction-dataset)
 
 - **[OpenDD](https://l3pilot.eu/data/opendd.html)** - 2020 · Germany (7 roundabouts) · drone · 84,000+ tracks · CC-BY-ND 4.0, Direct Download · [Paper](https://arxiv.org/abs/2007.08463)
+
+- SDD https://github.com/crowdbotp/OpenTraj/blob/master/datasets/SDD
 
 - **[SIND](https://github.com/SOTIF-AVLab/SinD)** - 2022 · Changsha, China · drone · ~14k tracks at signalized intersections · Custom (just academic), On Request · [Paper](https://arxiv.org/abs/2209.02297)
 
@@ -57,13 +58,7 @@ A curated list of open trajectory datasets for road traffic (vehicles & VRUs) - 
 
 ## Vulnerable Road Users (VRUs) 🚶🚲🛴
 
-- **[ETH Pedestrian](https://icu.ee.ethz.ch/research/datsets.html)** - 2009 · Zurich, Switzerland · overhead cam · 750 pedestrians, 2 scenes · custom (academic) · [Paper](https://ieeexplore.ieee.org/document/5206559)
-- **[UCY Crowds](https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data)** - 2007 · Cyprus / Israel · cam · 786 pedestrians, 3 scenes · custom (academic)
-- **[TrajNet++](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge)** - 2021 · Multi-source · cam + drone · benchmark aggregating ETH, UCY + others · CC-BY · [Paper](https://arxiv.org/abs/2007.03639)
-- **[PIE](http://data.nvision2.eecs.yorku.ca/PIE_dataset/)** - 2019 · Toronto, Canada · in-vehicle cam · 293,000 frames, 1,842 pedestrians with intention labels · custom (non-commercial) · [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Rasouli_PIE_A_Large-Scale_Dataset_and_Models_for_Pedestrian_Intention_Estimation_ICCV_2019_paper.html)
-- **[ATC Shopping Center](https://irc.atr.jp/crest2010_HRI/ATC_dataset/)** - 2013 · Osaka, Japan · 3D range sensors · ~100k tracks over 92 days · CC-BY · [Paper](https://doi.org/10.1007/s10514-013-9348-y)
 
----
 
 ## Contributing
 
@@ -76,15 +71,15 @@ Quick checklist for adding a dataset or live feed:
 - [ ] The license is clearly stated
 - [ ] For live feeds: the protocol and update rate are documented
 
-If your dataset is integrated or can be integrated into [Trajectory Trace](https://city.app.sdk-cloud.de/), mention it in the PR - we'll add the 🔍 badge.
+If your dataset shall be integrated into [Trajectory Trace](https://city.app.sdk-cloud.de/), mention it in the PR - we'll integrate it and add the 🔍 badge.
 
----
 
 ## Related Lists
 
 - [awesome-public-datasets#transportation](https://github.com/awesomedata/awesome-public-datasets#transportation)
+- [OpenTraj](https://github.com/crowdbotp/OpenTraj)
+- [Awesome Interaction-Aware Behavior and Trajectory Prediction](https://github.com/jiachenli94/Awesome-Interaction-aware-Trajectory-Prediction)
 
----
 
 ## License
 
