@@ -1,11 +1,8 @@
 # Awesome Trajectory Datasets [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-A curated list of open datasets containing road traffic trajectories (vehicles and vulnerable road users), with a focus on large-scale, real-world data in global coordinate formats, suitable for traffic analysis, motion prediction, and autonomous systems research.
-
-- See data in action: Several datasets and live feeds below are already integrated and publicly explorable on [**Trajectory Trace**](https://city.app.sdk-cloud.de/). Look for the 🔍 badge.
-
-- Sometimes Info and Data are not in the same place. In that case, name leads to Info and Data is linked seperately.
-
+A curated list of open datasets containing road traffic trajectories (vehicles and vulnerable road users), with a focus on large-scale, real-world data in global coordinate formats, suitable for traffic analysis, motion prediction, and autonomous systems research. 
+- Several datasets below are already integrated and publicly explorable on [**Trajectory Trace**](https://city.app.sdk-cloud.de/). Look for the 🔍 badge. 
+- In most cases, the data can be found via the main link. If not, the data is linked at the end. 
 - Data access variates: It can be "Direct Download", "Registration Required" or "On Request"
 
 
@@ -14,7 +11,6 @@ A curated list of open datasets containing road traffic trajectories (vehicles a
 - [Mixed Traffic](#mixed-traffic-️-)
 - [Vehicles](#vehicles-️)
 - [Vulnerable Road Users (VRUs)](#vulnerable-road-users-vrus-)
-- [See Data in Action](#see-data-in-action)
 - [Contributing](#contributing)
 - [Related Lists](#related-lists)
 - [Licensce](#license)
@@ -49,7 +45,7 @@ A curated list of open datasets containing road traffic trajectories (vehicles a
 
 - **[Automatum](https://automatum-data.com/de#dataset)** - Germany (Bavaria) · drone · 30 h · CC BY-ND / demo, On Request · [Paper](https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf) · [🔍](https://city.app.sdk-cloud.de/location/29) · [🔍](https://city.app.sdk-cloud.de/location/32?start=20260222110000&end=20260222110453)
 
-- **[DLR Highway Traffic (DLR HT)](https://zenodo.org/records/18540070)** - 2024 · Brunswick, Germany · Test Bed Lower Saxony · trajectory data (position, speed, acceleration, class) + weather + road condition · OpenSCENARIO export · CC-BY-NC-SA 4.0, Direct Download · [Paper](https://doi.org/10.1109/IAVVC61942.2025.11219599) · [🔍](https://city.app.sdk-cloud.de/location/40)
+- **[DLR Highway Traffic (DLR HT)](https://zenodo.org/records/18540070)** - 2024 · Brunswick, Germany · Test Bed Lower Saxony, trajectory data + weather + road condition · CC-BY-NC-SA 4.0, Direct Download · [Paper](https://doi.org/10.1109/IAVVC61942.2025.11219599) · [🔍](https://city.app.sdk-cloud.de/location/40)
 
 - **[NGSIM US-101 & I-80](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj)** - 2006 · California, USA · roadside cam · ~9,000 tracks · CC BY-SA 4.0, Direct Download · [Docs](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm)
 
