@@ -43,6 +43,9 @@ No description / Crowds (no gps data)
 - **[PIE](http://data.nvision2.eecs.yorku.ca/PIE_dataset/)** - 2019 · Toronto, Canada · in-vehicle cam · 293,000 frames, 1,842 pedestrians with intention labels · custom (non-commercial) · [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Rasouli_PIE_A_Large-Scale_Dataset_and_Models_for_Pedestrian_Intention_Estimation_ICCV_2019_paper.html)
 - **[ATC Shopping Center](https://irc.atr.jp/crest2010_HRI/ATC_dataset/)** - 2013 · Osaka, Japan · 3D range sensors · ~100k tracks over 92 days · CC-BY · [Paper](https://doi.org/10.1007/s10514-013-9348-y)
 
+Not georeferenced
+- SDD https://github.com/crowdbotp/OpenTraj/blob/master/datasets/SDD
+
 ## Aerial (UAV / Aircraft) ✈️
 
 | Dataset | Year | Domain | Sensors | Participants | Size | License | Links |
