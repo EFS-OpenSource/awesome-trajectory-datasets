@@ -26,26 +26,25 @@ Domains covered: road traffic (vehicles + VRUs), aerial (UAV/aircraft), maritime
 2. **Edit** `README.md` — add a row to the most appropriate table
 3. **Follow the row format:**
 
-```markdown
-| **Dataset Name** | YEAR | Location | sensors | 🚗🚌🚶🚲 | size description | LICENSE | [Paper](url) · [Data](url) |
-```
+    - **[Dataset Name](https://main-link)** - Year · Location · Sensors · Description · License, Access · [Link1](url) · [Link2](url) · [🔍](https://city.app.sdk-cloud.de/location/??)
 
-4. Keep descriptions concise — one line per dataset
-5. Use the correct participant symbols from the legend
+
+4. Choose the category
 6. **Open a Pull Request** with the title `Add: <Dataset Name>`
 
-## Column conventions
+## Conventions
 
-| Column | What to put |
+| Part | What to put |
 |--------|-------------|
-| **Dataset** | Bold name, no link in name cell (links go in the Links column) |
+| **Dataset Name** | Bold name, no link in name cell (links go in the Links column) |
 | **Year** | Year of first public release or associated paper |
 | **Location** | City/region + country, or "Multi-country", or "Global" |
 | **Sensors** | Comma-separated abbreviations: `cam`, `lid`, `rad`, `gnss`, `drone`, `ais`, `ads-b` |
-| **Participants** | Emoji symbols from the legend (e.g. `🚗🚶🚲`) |
-| **Size** | Tracks count, duration, or scenes — whatever is most informative |
+| **Description** | Short description (time range(s), places, special features like traffic lights, size) |
 | **License** | Short name: `CC-BY 4.0`, `CC-BY-NC`, `MIT`, `public domain`, `custom (free academic)`, etc. |
-| **Links** | `[Paper](url)` and/or `[Data](url)`, optionally `· 🔍 [View](url)` |
+| **Access** | Short name: `Direct Download`, `On Request`, `Registration Required` |
+| **Links** | `[Paper](url)` and/or `[Data](url)` and/or `[Git](url)` |
+| 🔍 | Link to Data View [🔍](url) |
 
 ## Requesting a dataset
 

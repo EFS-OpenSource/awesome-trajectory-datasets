@@ -49,7 +49,7 @@ A curated list of open datasets containing road traffic trajectories (vehicles a
 
 - **[Automatum](https://automatum-data.com/de#dataset)** - Germany (Bavaria) · drone · 30 h · CC BY-ND / demo, On Request · [Paper](https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf) · [🔍](https://city.app.sdk-cloud.de/location/29) · [🔍](https://city.app.sdk-cloud.de/location/32?start=20260222110000&end=20260222110453)
 
-- **[DLR Highway Traffic (DLR HT)](https://zenodo.org/records/18540070)** - 2024 · Brunswick, Germany · Test Bed Lower Saxony · trajectory data (position, speed, acceleration, class) + weather + road condition · OpenSCENARIO export · CC-BY-NC-SA 4.0, Direct Download · [Paper](https://doi.org/10.1109/IAVVC61942.2025.11219599)
+- **[DLR Highway Traffic (DLR HT)](https://zenodo.org/records/18540070)** - 2024 · Brunswick, Germany · Test Bed Lower Saxony · trajectory data (position, speed, acceleration, class) + weather + road condition · OpenSCENARIO export · CC-BY-NC-SA 4.0, Direct Download · [Paper](https://doi.org/10.1109/IAVVC61942.2025.11219599) · [🔍](https://city.app.sdk-cloud.de/location/40)
 
 - **[NGSIM US-101 & I-80](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj)** - 2006 · California, USA · roadside cam · ~9,000 tracks · CC BY-SA 4.0, Direct Download · [Docs](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm)
 
@@ -83,6 +83,4 @@ If your dataset shall be integrated into [Trajectory Trace](https://city.app.sdk
 
 ## License
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-This list is released under CC0 - no rights reserved.
+This Source Code Form is subject to the terms of the Apache License 2.0. If a copy of the APL2 was not distributed with this file, You can obtain one at [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt).
