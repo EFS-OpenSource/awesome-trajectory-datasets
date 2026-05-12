@@ -1,17 +1,17 @@
 # Contributing to Awesome Trajectory Datasets
 
-Thank you for helping grow this list! Please follow the guidelines below to keep the list consistent and high-quality.
+Thank you for helping grow this list. Please follow the guidelines below to keep the list consistent and high-quality.
 
 ## What belongs here
 
 A dataset belongs in this list if it:
 
-1. **Contains trajectory data** — time-stamped positions (x/y or lat/lon) of moving objects
-2. **Is publicly accessible** — free download, registration-only, or clearly documented access request process
-3. **Has a citable source** — a peer-reviewed paper, technical report, DOI, or an official project website
-4. **Has a stated license** — the terms of use are documented
+1. **Contains trajectory data**: time-stamped positions (x/y or lat/lon) of moving objects
+2. **Is publicly accessible**: free download, registration-only, or clearly documented access request process
+3. **Has a citable source**: a peer-reviewed paper, technical report, DOI, or an official project website
+4. **Has a stated license**: the terms of use are documented
 
-Domains covered: road traffic (vehicles + VRUs), aerial (UAV/aircraft), maritime.
+Domains covered: road traffic (vehicles + VRUs) - and maybe soon aerial (UAV/aircraft) and maritime.
 
 ## What does NOT belong here
 
@@ -22,15 +22,15 @@ Domains covered: road traffic (vehicles + VRUs), aerial (UAV/aircraft), maritime
 
 ## How to add a dataset
 
-1. **Fork** this repository
-2. **Edit** `README.md` — add a row to the most appropriate table
-3. **Follow the row format:**
+1. Fork this repository
+2. Edit `README.md` — add a row to the most appropriate table
+3. Follow the row format:
 
     - **[Dataset Name](https://main-link)** - Year · Location · Sensors · Description · License, Access · [Link1](url) · [Link2](url) · [🔍](https://city.app.sdk-cloud.de/location/??)
 
 
 4. Choose the category
-6. **Open a Pull Request** with the title `Add: <Dataset Name>`
+6. Open a Pull Request with the title `Add: <Dataset Name>`
 
 ## Conventions
 
