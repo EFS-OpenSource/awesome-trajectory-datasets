@@ -1,6 +1,6 @@
 Covers both **historical datasets** (downloadable archives) and **live data streams** (real-time feeds you can connect to today).
 
-
+- [Vulnerable Road Users (VRUs)](#vulnerable-road-users-vrus-)
 - [Aerial (UAV / Aircraft)](#aerial-uav--aircraft)
 - [Maritime](#maritime)
 - [Live Data Streams](#live-data-streams)
@@ -30,14 +30,16 @@ Too much focus on raw data
 - **[BDD100K](https://www.bdd100k.com/)** - 2020 · USA (various) · cam · 100k videos, 10 annotation tasks · BSD 3-Clause · [Paper](https://arxiv.org/abs/1805.04687)
 - **[VisDrone](https://github.com/VisDrone/VisDrone-Dataset)** - 2021 · China (multiple cities) · drone cam · 288 video clips · custom (non-commercial) · [Paper](https://arxiv.org/abs/2001.06303)
 - **[Shifts](https://github.com/yandex-research/shifts)** - 2022 · Multi-country · GNSS · 1M+ km, distributional shift benchmark · CC-BY 4.0 · [Paper](https://arxiv.org/abs/2107.07455)
+- **[Ko-PER Intersection](https://www.uni-ulm.de/in/mrm/forschung/datensaetze/)** - 2014 · Aschaffenburg, Germany · infrared cam + laser · 6 scenarios, 6:28 minutes · No Licensce mentioned, Direct Download · [Paper](https://www.uni-ulm.de/fileadmin/website_uni_ulm/iui.inst.110/Bilder/Forschung/Datensaetze/20141010_DatasetDocumentation.pdf)
+- **[L3Pilot Open Data](https://l3pilot.eu/data.html)
 
 Not accessible
 - **[Lyft Level 5](https://self-driving.lyft.com/level5/data/)** - 2020 · Palo Alto, USA · LiDAR + cam · 1,118 h, 170,000 scenes · custom (non-commercial) · [Paper](https://arxiv.org/abs/2104.13949)
 - **[Stanford Drone (SDD)](https://cvgl.stanford.edu/projects/uav_data/)** - 2016 · Stanford, USA · drone · 19,000+ tracks across 8 campus scenes · CC BY-NC-SA 3.0, Direct Download -> Link is not working right now
 - **[ETH Pedestrian](https://icu.ee.ethz.ch/research/datsets.html)** - 2009 · Zurich, Switzerland · overhead cam · 750 pedestrians, 2 scenes · custom (academic) · [Paper](https://ieeexplore.ieee.org/document/5206559)
 
-No description / Crowds (no gps data)
 ## Vulnerable Road Users (VRUs) 🚶🚲🛴
+No description / Crowds (no gps data)
 - **[UCY Crowds](https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data)** - 2007 · Cyprus / Israel · cam · 786 pedestrians, 3 scenes · custom (academic)
 - **[TrajNet++](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge)** - 2021 · Multi-source · cam + drone · benchmark aggregating ETH, UCY + others · CC-BY · [Paper](https://arxiv.org/abs/2007.03639)
 - **[PIE](http://data.nvision2.eecs.yorku.ca/PIE_dataset/)** - 2019 · Toronto, Canada · in-vehicle cam · 293,000 frames, 1,842 pedestrians with intention labels · custom (non-commercial) · [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Rasouli_PIE_A_Large-Scale_Dataset_and_Models_for_Pedestrian_Intention_Estimation_ICCV_2019_paper.html)
@@ -45,6 +47,10 @@ No description / Crowds (no gps data)
 
 Not georeferenced
 - SDD https://github.com/crowdbotp/OpenTraj/blob/master/datasets/SDD
+
+No real gps tracks
+- [Bicycle Driving Behaviour in Germany: A Driving Parameter Dataset Across 100 Cities based on CITY CYCLING GPS trajectories](https://opara.zih.tu-dresden.de/items/5cd85d7f-e86b-496d-98fb-21c509ba72ef) -> Only start and end gps data -> But maybe partner with https://www.stadtradeln.de/ (they should have real gps data)
+
 
 ## Aerial (UAV / Aircraft) ✈️
 

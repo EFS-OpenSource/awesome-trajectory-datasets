@@ -36,14 +36,14 @@ Domains covered: road traffic (vehicles + VRUs) - and maybe soon aerial (UAV/air
 
 | Part | What to put |
 |--------|-------------|
-| **Dataset Name** | Bold name, no link in name cell (links go in the Links column) |
-| **Year** | Year of first public release or associated paper |
+| **Dataset Name** | Name in bold letters, linking to the main information page |
+| **Year** | Year of trajectories |
 | **Location** | City/region + country, or "Multi-country", or "Global" |
 | **Sensors** | Comma-separated abbreviations: `cam`, `lid`, `rad`, `gnss`, `drone`, `ais`, `ads-b` |
 | **Description** | Short description (time range(s), places, special features like traffic lights, size) |
 | **License** | Short name: `CC-BY 4.0`, `CC-BY-NC`, `MIT`, `public domain`, `custom (free academic)`, etc. |
-| **Access** | Short name: `Direct Download`, `On Request`, `Registration Required` |
-| **Links** | `[Paper](url)` and/or `[Data](url)` and/or `[Git](url)` |
+| **Access** | Short name: `Direct Download`, `Data on Request`, `Registration Required` |
+| **Links** | [Paper](url) and/or [Git](url) and/or [Docs](url) |
 | 🔍 | Link to Data View [🔍](url) |
 
 ## Requesting a dataset
