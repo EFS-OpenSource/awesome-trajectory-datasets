@@ -15,7 +15,7 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 
 - **[GeoLife](https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/)** - Geolife GPS trajectory dataset (2012): · Beijing (China) · GNSS · 182 users, 5 years, multi-modal, 0.2-1 Hz · MSR-LA (NC) · [Direct Download](https://www.microsoft.com/en-us/download/details.aspx?id=52367) · [User Guide](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/User20Guide-1.2.pdf)
 
-- **[INTERACTION](https://interaction-dataset.com/)** - **INTER**national, **A**dversarial and **C**ooperative mo**TION** Dataset (2019): Multi-country · 10 Hz drone or cam · ~16 locations: merges, roundabouts, intersections · Custom License (NC) · [Data On Request](https://docs.google.com/forms/d/e/1FAIpQLSdX1XM14idrtHEd9HIiUMCCbiiQZlvwJTaixY8U4PfXCqJ5Zg/viewform) · [Paper](https://arxiv.org/abs/1910.03088) · [GIT](https://github.com/interaction-dataset/interaction-dataset)
+- **[INTERACTION](https://interaction-dataset.com/)** - **INTER**national, **A**dversarial and **C**ooperative mo**TION** Dataset (2019): Multi-country · 10 Hz drone or cam · ~16 locations: merges, roundabouts, intersections · No explicit license provided by the authors · [Data On Request](https://docs.google.com/forms/d/e/1FAIpQLSdX1XM14idrtHEd9HIiUMCCbiiQZlvwJTaixY8U4PfXCqJ5Zg/viewform) · [Paper](https://arxiv.org/abs/1910.03088) · [GIT](https://github.com/interaction-dataset/interaction-dataset)
 
 - **[OpenDD](https://l3pilot.eu/data/opendd.html)** - A Large-Scale Roundabout Drone Dataset (2020): 7 roundabouts (Germany) · drone · 84,000+ tracks · CC-BY-ND 4.0 · [Direct Download](https://l3pilot.eu/data/opendd.html#downloads) · [Paper](https://arxiv.org/abs/2007.08463) 
 
@@ -28,7 +28,7 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 - **[UrbanIng-V2X](https://thi-ad.github.io/urbaning/)** - A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception (2025): Ingolstadt (Germany) · LiDAR, rgb cam, thermal cam, GNSS/IMU · V2X cooperative perception at 3 intersections, 34 sequences × 20 s, ~712k annotated instances at 10 Hz · CC-BY-NC-ND 4.0 · [Direct Download](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/A9LPY7) · [GIT](https://github.com/thi-ad/UrbanIng-V2X) · [Paper](https://arxiv.org/abs/2510.23478) · [🔍](https://city.app.sdk-cloud.de/location/30?start=20241127145920&end=20241127150000)
 
 
-## Vehicles 🚗🚌🚚🏍️
+## Just Vehicles 🚗🚌🚚🏍️
 
 - **[Automatum Data](https://automatum-data.com/de#dataset)**: Bavaria (Germany) · drone · 30 h · CC BY-ND / demo · [Data On Request](https://automatum-data.com/de/get-free-dataset) · [Paper](https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf) · [🔍highway](https://city.app.sdk-cloud.de/location/29) · [🔍roundabout](https://city.app.sdk-cloud.de/location/32?start=20260222110000&end=20260222110453)
 
@@ -49,7 +49,7 @@ Contributions are very welcome! Please read the [contributing guidelines](CONTRI
 
 Quick checklist for adding a dataset or live feed:
 - [ ] The data is publicly accessible (free download, registration, or free-tier API)
-- [ ] It contains trajectory data (x/y/t positions over time)
+- [ ] It contains trajectory data (x/y/t - positions over time)
 - [ ] A citable source (paper, DOI, or official website) exists
 - [ ] The license is clearly stated
 - [ ] For live feeds: the protocol and update rate are documented
