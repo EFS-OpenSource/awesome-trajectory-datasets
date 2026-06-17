@@ -28,6 +28,9 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 - **[UrbanIng-V2X](https://thi-ad.github.io/urbaning/)** - A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception (2025): Ingolstadt (Germany) · LiDAR, rgb cam, thermal cam, GNSS/IMU · V2X cooperative perception at 3 intersections, 34 sequences × 20 s, ~712k annotated instances at 10 Hz · CC-BY-NC-ND 4.0 · [Direct Download](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/A9LPY7) · [GIT](https://github.com/thi-ad/UrbanIng-V2X) · [Paper](https://arxiv.org/abs/2510.23478) · [🔍](https://city.app.sdk-cloud.de/location/30?start=20241127145920&end=20241127150000)
 
 
+## Just VRUs 🚶🚲🛴
+- **[Pedestrian Trajectory Dataset of Public European Squares](https://zenodo.org/records/18267205)** - The dataset includes 348,300 pedestrian trajectories extracted from 193 hours of video footage, collected at morning, noon, evening and saturdays on 39 different places · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/18267205) · [Paper](https://www.nature.com/articles/s41597-026-06686-6) · [GIT](https://github.com/kaktusracing/pedestrian_trajectories) · [🔍](https://city.app.sdk-cloud.de/location/43)
+
 ## Just Vehicles 🚗🚌🚚🏍️
 
 - **[Automatum Data](https://automatum-data.com/de#dataset)**: Bavaria (Germany) · drone · 30 h · CC BY-ND / demo · [Data On Request](https://automatum-data.com/de/get-free-dataset) · [Paper](https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf) · [🔍highway](https://city.app.sdk-cloud.de/location/29) · [🔍roundabout](https://city.app.sdk-cloud.de/location/32?start=20260222110000&end=20260222110453)
