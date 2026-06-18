@@ -29,7 +29,9 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 
 
 ## Just VRUs 🚶🚲🛴
-- **[Pedestrian Trajectory Dataset of Public European Squares](https://zenodo.org/records/18267205)** - The dataset includes 348,300 pedestrian trajectories extracted from 193 hours of video footage, collected at morning, noon, evening and saturdays on 39 different places · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/18267205) · [Paper](https://www.nature.com/articles/s41597-026-06686-6) · [GIT](https://github.com/kaktusracing/pedestrian_trajectories) · [🔍](https://city.app.sdk-cloud.de/location/43)
+
+- **[Pedestrian Trajectory Dataset of Public European Squares](https://zenodo.org/records/18267205)** - Includes 348,300 pedestrian trajectories extracted from 193 hours of video footage, collected at morning, noon, evening and saturdays (2024): 39 city squares (Europe) · raw data at 15 Hz, processed data at 2 Hz · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/18267205) · [Paper](https://www.nature.com/articles/s41597-026-06686-6) · [GIT](https://github.com/kaktusracing/pedestrian_trajectories) · [🔍](https://city.app.sdk-cloud.de/location/43)
+
 
 ## Just Vehicles 🚗🚌🚚🏍️
 
