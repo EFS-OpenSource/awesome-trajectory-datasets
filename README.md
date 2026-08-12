@@ -8,7 +8,7 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 ## Mixed Traffic 🚗🚌🚚🏍️ 🚶🚲🛴
 
 | | |
-|---|---|
+|:---:|---|
 | <img src="gifs/coming-soon.svg" width="120"> | **[CitySim](https://github.com/UCF-SST-Lab/UCF-SST-CitySim1-Dataset)** - A Drone-Based Vehicle Trajectory Dataset for Safety Oriented Research and Digital Twins (2023): 12 locations (USA) · drone · ~1,140 trajectories, 30 Hz· CC-BY-NC 4.0 · [Data on Request](https://github.com/UCF-SST-Lab/UCF-SST-CitySim1-Dataset/tree/main/data) · [Paper](https://arxiv.org/abs/2208.11036) |
 | <a href="https://city.app.sdk-cloud.de/location/24"><img src="gifs/dlrut.gif" width="220"></a> | **[DLR UT](https://zenodo.org/records/15754836)** - **DLR** **U**rban **T**raffic (2023):  Brunswick (Germany) · stereo cams · 12 h, 20 Hz, inner ring road · trajectories, traffic lights, local weather, air quality, road conditions · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/15754836) · [Paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.174000540.08271707/v1) · [🔍](https://city.app.sdk-cloud.de/location/24) |
 | <img src="gifs/coming-soon.svg" width="120"> | **[DrivIng](https://github.com/cvims/DrivIng)** - A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration (2025): Ingolstadt (Germany) · 10 Hz cams, lidars, 18km ego vehicle · CC BY-NC-ND 4.0 · [Direct Download](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VBZKDY) · [Paper](https://arxiv.org/pdf/2601.15260) |
@@ -24,14 +24,14 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 ## Just VRUs 🚶🚲🛴
 
 | | |
-|---|---|
+|:---:|---|
 | <a href="https://city.app.sdk-cloud.de/location/43"><img src="gifs/pedestrian.gif" width="220"></a> | **[Pedestrian Trajectory Dataset of Public European Squares](https://zenodo.org/records/18267205)** - Includes 348,300 pedestrian trajectories extracted from 193 hours of video footage, collected at morning, noon, evening and saturdays (2024): 39 city squares (Europe) · raw data at 15 Hz, processed data at 2 Hz · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/18267205) · [Paper](https://www.nature.com/articles/s41597-026-06686-6) · [GIT](https://github.com/kaktusracing/pedestrian_trajectories) · [🔍](https://city.app.sdk-cloud.de/location/43) |
 
 
 ## Just Vehicles 🚗🚌🚚🏍️
 
 | | |
-|---|---|
+|:---:|---|
 | <a href="https://city.app.sdk-cloud.de/location/29"><img src="gifs/automatum.gif" width="220"></a> | **[Automatum Data](https://automatum-data.com/de#dataset)**: Bavaria (Germany) · drone · 30 h · CC BY-ND / demo · [Data On Request](https://automatum-data.com/de/get-free-dataset) · [Paper](https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf) · [🔍highway](https://city.app.sdk-cloud.de/location/29) · [🔍roundabout](https://city.app.sdk-cloud.de/location/32) |
 | <a href="https://city.app.sdk-cloud.de/location/40"><img src="gifs/dlrht.gif" width="220"></a> | **[DLR HT](https://zenodo.org/records/18540070)** - **DLR** **H**ighway **T**raffic (2024): Brunswick (Germany) · Test Bed Lower Saxony · 20 Hz trajectories, weather, road condition · CC-BY-NC-SA 4.0 · [Direct Download](https://zenodo.org/records/18540070) · [Paper](https://doi.org/10.1109/IAVVC61942.2025.11219599) · [🔍](https://city.app.sdk-cloud.de/location/40) |
 | <a href="https://city.app.sdk-cloud.de/location/44"><img src="gifs/mitra.gif" width="220"></a> | **[MiTra](https://opara.zih.tu-dresden.de/items/68482417-ddc5-40ac-885a-83124bd459e8)** - **Mi**lan **Tra**jectories (2024): Milan (Italy) · 900 m section of the A50 urban freeway · 135 min, using 6 drones, 30 Hz · CC BY 4.0 · [Direct Download](https://opara.zih.tu-dresden.de/items/68482417-ddc5-40ac-885a-83124bd459e8) · [Paper](https://www.nature.com/articles/s41597-025-05472-0) · [GIT](https://github.com/ankitiitm/MiTra) · [🔍](https://city.app.sdk-cloud.de/location/44) |
