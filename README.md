@@ -13,7 +13,7 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 **[CitySim](https://github.com/UCF-SST-Lab/UCF-SST-CitySim1-Dataset)** - A Drone-Based Vehicle Trajectory Dataset for Safety Oriented Research and Digital Twins (2023): 12 locations (USA) · drone · ~1,140 trajectories, 30 Hz· CC-BY-NC 4.0 · [Data on Request](https://github.com/UCF-SST-Lab/UCF-SST-CitySim1-Dataset/tree/main/data) · [Paper](https://arxiv.org/abs/2208.11036)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/24"><img src="gifs/dlrut.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/dlrut.gif" width="220" style="display:block"></a></td><td>
 
 **[DLR UT](https://zenodo.org/records/15754836)** - **DLR** **U**rban **T**raffic (2023):  Brunswick (Germany) · stereo cams · 12 h, 20 Hz, inner ring road · trajectories, traffic lights, local weather, air quality, road conditions · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/15754836) · [Paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.174000540.08271707/v1) · [🔍](https://city.app.sdk-cloud.de/location/24)
 
@@ -33,7 +33,7 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 **[INTERACTION](https://interaction-dataset.com/)** - **INTER**national, **A**dversarial and **C**ooperative mo**TION** Dataset (2019): Multi-country · 10 Hz drone or cam · ~16 locations: merges, roundabouts, intersections · No explicit license provided by the authors · [Data On Request](https://docs.google.com/forms/d/e/1FAIpQLSdX1XM14idrtHEd9HIiUMCCbiiQZlvwJTaixY8U4PfXCqJ5Zg/viewform) · [Paper](https://arxiv.org/abs/1910.03088) · [GIT](https://github.com/interaction-dataset/interaction-dataset)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/42"><img src="gifs/opendd.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/opendd.gif" width="220" style="display:block"></a></td><td>
 
 **[OpenDD](https://l3pilot.eu/data/opendd.html)** - A Large-Scale Roundabout Drone Dataset (2020): 7 roundabouts (Germany) · 84k+ tracks, over 62 hours · CC-BY-ND 4.0 · [Direct Download](https://l3pilot.eu/data/opendd.html#downloads) · [Paper](https://arxiv.org/abs/2007.08463) · [🔍](https://city.app.sdk-cloud.de/location/42)
 
@@ -43,17 +43,17 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 **[SinD](https://github.com/SOTIF-AVLab/SinD)** - A Drone Dataset at Signalized Intersection in China (2022): Changsha (China) · drone · ~14k tracks at signalized intersections · CC0 1.0 Universal · Demo data in Repo, [Full Data on Request](https://github.com/SOTIF-AVLab/SinD#-dataset-access) · [Paper](https://arxiv.org/abs/2209.02297)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/39"><img src="gifs/tumdoting.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/tumdoting.gif" width="220" style="display:block"></a></td><td>
 
 **[TUMDOT-ING](https://www.mos.ed.tum.de/en/vt/forschung/datensaetze/tumdot-ing/)** - **T**rajectories from **U**rban **M**ultimodal **D**rone **O**bservations of **T**raffic **Ing**olstadt (2023): Ingolstadt (Germany) · 6 drones, 30 Hz · 3 locations, 3 days, ~3 h each · covers the high definition testfield Ingolstadt (see UrbanIng-V2X) · CC-BY-NC 4.0 · [Direct Download](https://syncandshare.lrz.de/getlink/fiCe4FwFqAmwnPsdR83LxY/) · [🔍](https://city.app.sdk-cloud.de/location/39)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/12"><img src="gifs/tumdotmuc.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/tumdotmuc.gif" width="220" style="display:block"></a></td><td>
 
 **[TUMDOT-MUC](https://www.mos.ed.tum.de/en/vt/research/data-sets/tumdot-muc/)** - **T**rajectories from **U**rban **M**ultimodal **D**rone **O**bservations of **T**raffic **Mu**ni**c**h (2022): Munich (Germany) · 12 drones · 6 locations, >3 h each, 700 m continuous section along Rheinstraße, 25 Hz · CC-BY-NC 4.0 · [Direct Download](https://syncandshare.lrz.de/getlink/fiD1PMw4bRxbgWggvTtTTJ/) · [Paper](https://doi.org/10.1007/s42421-024-00101-5) · [🔍](https://city.app.sdk-cloud.de/location/12)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/30"><img src="gifs/urbaning.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/urbaning.gif" width="220" style="display:block"></a></td><td>
 
 **[UrbanIng-V2X](https://thi-ad.github.io/urbaning/)** - A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception (2025): Ingolstadt (Germany) · LiDAR, rgb cam, thermal cam, GNSS/IMU · V2X cooperative perception at 3 intersections, 34 sequences × 20 s, ~712k annotated instances at 10 Hz · CC-BY-NC-ND 4.0 · [Direct Download](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/A9LPY7) · [GIT](https://github.com/thi-ad/UrbanIng-V2X) · [Paper](https://arxiv.org/abs/2510.23478) · [🔍](https://city.app.sdk-cloud.de/location/30)
 
@@ -64,7 +64,7 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 ## Just VRUs 🚶🚲🛴
 
 <table>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/43"><img src="gifs/pedestrian.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/pedestrian.gif" width="220" style="display:block"></a></td><td>
 
 **[Pedestrian Trajectory Dataset of Public European Squares](https://zenodo.org/records/18267205)** - Includes 348,300 pedestrian trajectories extracted from 193 hours of video footage, collected at morning, noon, evening and saturdays (2024): 39 city squares (Europe) · raw data at 15 Hz, processed data at 2 Hz · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/18267205) · [Paper](https://www.nature.com/articles/s41597-026-06686-6) · [GIT](https://github.com/kaktusracing/pedestrian_trajectories) · [🔍](https://city.app.sdk-cloud.de/location/43)
 
@@ -75,34 +75,34 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 ## Just Vehicles 🚗🚌🚚🏍️
 
 <table>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/29"><img src="gifs/automatum.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/automatum.gif" width="220" style="display:block"></a></td><td>
 
 **[Automatum Data](https://automatum-data.com/de#dataset)**: Bavaria (Germany) · drone · 30 h · CC BY-ND / demo · [Data On Request](https://automatum-data.com/de/get-free-dataset) · [Paper](https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf) · [🔍highway](https://city.app.sdk-cloud.de/location/29) · [🔍roundabout](https://city.app.sdk-cloud.de/location/32)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/40"><img src="gifs/dlrht.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/dlrht.gif" width="220" style="display:block"></a></td><td>
 
 **[DLR HT](https://zenodo.org/records/18540070)** - **DLR** **H**ighway **T**raffic (2024): Brunswick (Germany) · Test Bed Lower Saxony · 20 Hz trajectories, weather, road condition · CC-BY-NC-SA 4.0 · [Direct Download](https://zenodo.org/records/18540070) · [Paper](https://doi.org/10.1109/IAVVC61942.2025.11219599) · [🔍](https://city.app.sdk-cloud.de/location/40)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/44"><img src="gifs/mitra.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/mitra.gif" width="220" style="display:block"></a></td><td>
 
 **[MiTra](https://opara.zih.tu-dresden.de/items/68482417-ddc5-40ac-885a-83124bd459e8)** - **Mi**lan **Tra**jectories (2024): Milan (Italy) · 900 m section of the A50 urban freeway · 135 min, using 6 drones, 30 Hz · CC BY 4.0 · [Direct Download](https://opara.zih.tu-dresden.de/items/68482417-ddc5-40ac-885a-83124bd459e8) · [Paper](https://www.nature.com/articles/s41597-025-05472-0) · [GIT](https://github.com/ankitiitm/MiTra) · [🔍](https://city.app.sdk-cloud.de/location/44)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/41"><img src="gifs/ngsim.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/ngsim.gif" width="220" style="display:block"></a></td><td>
 
 **[NGSIM](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj)** - **N**ext **G**eneration **Sim**ulation Vehicle Trajectories and Supporting Data (2006): California (USA) · roadside cam · ~9,000 tracks, 10 Hz · CC BY-SA 3.0 · [Direct Download](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj/data_preview) · [Docs](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · [🔍](https://city.app.sdk-cloud.de/location/41)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><a href="https://city.app.sdk-cloud.de/location/38"><img src="gifs/pneuma.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/pneuma.gif" width="220" style="display:block"></a></td><td>
 
 **[pNEUMA](https://open-traffic.epfl.ch/)** - Open large-scale dataset of naturalistic trajectories of half a million vehicles (2018): Athens (Greece) · 10 drones, 25 Hz · 4 days, each ~4 h, city center · CC-BY-NC 4.0 · [Direct Download](https://open-traffic.epfl.ch/index.php/downloads/) · [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0968090X19310320?via%3Dihub) · [🔍](https://city.app.sdk-cloud.de/location/38)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/coming-soon.svg" width="120" style="display:block"></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/songdo.gif" width="220" style="display:block"></a></td><td>
 
-**[Songdo Traffic](https://doi.org/10.5281/zenodo.13828383)** - High accuracy georeferenced vehicle trajectories from a large-scale study in a smart city (2022): Songdo (South Korea) · 10 drones, 4K, 29.97 Hz · 20 intersections, 4 days (Oct 4–7), ~700k trajectories, 140–150 m altitude · WGS84 + local CRS, lane-resolved, with speed, acceleration and estimated dimensions · CC-BY 4.0 · [Direct Download](https://doi.org/10.5281/zenodo.13828383) · [Paper](https://doi.org/10.1016/j.trc.2025.105205) · [GIT](https://github.com/rfonod/geo-trax)
+**[Songdo Traffic](https://doi.org/10.5281/zenodo.13828383)** - High accuracy georeferenced vehicle trajectories from a large-scale study in a smart city (2022): Songdo (South Korea) · 10 drones, 4K, 29.97 Hz · 20 intersections, 4 days (Oct 4–7), ~700k trajectories, 140–150 m altitude · WGS84 + local CRS, lane-resolved, with speed, acceleration and estimated dimensions · CC-BY 4.0 · [Direct Download](https://doi.org/10.5281/zenodo.13828383) · [Paper](https://doi.org/10.1016/j.trc.2025.105205) · [GIT](https://github.com/rfonod/geo-trax) · [🔍](https://city.app.sdk-cloud.de/location/50)
 
 </td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/coming-soon.svg" width="120" style="display:block"></td><td>
