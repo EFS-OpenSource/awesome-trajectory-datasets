@@ -102,6 +102,11 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 </td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/coming-soon.svg" width="120" style="display:block"></td><td>
 
+**[Songdo Traffic](https://doi.org/10.5281/zenodo.13828383)** - High accuracy georeferenced vehicle trajectories from a large-scale study in a smart city (2022): Songdo (South Korea) · 10 drones, 4K, 29.97 Hz · 20 intersections, 4 days (Oct 4–7), ~700k trajectories, 140–150 m altitude · WGS84 + local CRS, lane-resolved, with speed, acceleration and estimated dimensions · CC-BY 4.0 · [Direct Download](https://doi.org/10.5281/zenodo.13828383) · [Paper](https://doi.org/10.1016/j.trc.2025.105205) · [GIT](https://github.com/rfonod/geo-trax)
+
+</td></tr>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/coming-soon.svg" width="120" style="display:block"></td><td>
+
 **[SWIFTraj](https://swiftraj.com/index.html)** - **Sw**arm **I**ntelligence **F**reeway–Urban **Traj**ectories Dataset (2022): Nanjing (China) · 16 drones, 10 Hz · 4.5km Hurong Expressway, 4 hours · CC BY 4.0 · [Data on Request](https://zenodo.org/records/18616239) · [Paper](https://arxiv.org/abs/2602.22563) · [GIT](https://github.com/YuHan-Research-Group-SEU/trajectory-data-tools)
 
 </td></tr>
