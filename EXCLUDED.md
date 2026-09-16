@@ -2,6 +2,7 @@
 
 A curated list of datasets related to road traffic trajectories that are **not** included on the main [Awesome Trajectory Datasets](README.md) list, along with documented reasons for exclusion. This can be useful for understanding curation decisions and finding relevant resources that may still be valuable for specific use cases.
 
+
 ## Data Access Issues 🚫
 
 | Dataset | Year | Location | Reason |
@@ -12,6 +13,7 @@ A curated list of datasets related to road traffic trajectories that are **not**
 | **[Lyft Level 5](https://self-driving.lyft.com/level5/data/)** | 2020 | Palo Alto, USA | Server Not Found |
 | **[SinD](https://github.com/SOTIF-AVLab/SinD)** | 2022 | Changsha, China | Data requested, but no feedback |
 | **[Stanford Drone (SDD)](https://cvgl.stanford.edu/projects/uav_data/)** | 2016 | Stanford, USA | Download Dataset -> The connection has timed out, not georeferenced |
+
 
 ## Focus on Sensor/Perception Data 🎥
 
@@ -30,6 +32,7 @@ A curated list of datasets related to road traffic trajectories that are **not**
 | **[Waymo Open Motion](https://waymo.com/open/data/motion/)** | 2021 | USA | Sensor-centric focus |
 | **[Waymo Open Perception](https://waymo.com/open/data/perception/)** | 2020 | USA | Sensor-centric focus |
 
+
 ## Focus on Single Tracks, not Traffic 📍
 
 | Dataset | Year | Location | Limitation |
@@ -37,6 +40,7 @@ A curated list of datasets related to road traffic trajectories that are **not**
 | **[GeoLife](https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/)** | 2012 | Beijing, China | Mixed personal + traffic |
 | **[Single-User Trajectory Collection (Hannover)](https://data.uni-hannover.de/dataset/single-user-trajectory-collection-for-the-region-of-hannover)** | — | Hannover, Germany | Single vehicle personal tracking |
 | **[Bicycle Driving Behaviour (CITY CYCLING)](https://opara.zih.tu-dresden.de/items/5cd85d7f-e86b-496d-98fb-21c509ba72ef)** | — | Germany (100 cities) | Incomplete trajectory data |
+
 
 ## Focus on Pedestrians/Crowds 🚶
 
@@ -48,6 +52,7 @@ A curated list of datasets related to road traffic trajectories that are **not**
 | **[PIE (Pedestrian Intention)](http://data.nvision2.eecs.yorku.ca/PIE_dataset/)** | 2019 | Toronto, Canada | No trajectory coordinates |
 | **[TrajNet++](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge)** | 2021 | Multi-source | Benchmark aggregator, limited georeferencing |
 | **[UCY Crowds](https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data)** | 2007 | Cyprus / Israel | No GPS/georeferencing |
+
 
 ## Licensing ©️
 
@@ -62,9 +67,10 @@ A curated list of datasets related to road traffic trajectories that are **not**
 
 ## 📌 Notes
 
-- **Status as of:** 2025-09-16
-- **Accessibility:** Some datasets may have regained access since last check; links should be verified before use.
-- **Future Consideration:** Some of these datasets (e.g., missing feedback cases) may be added to the main awesome list if access is granted or if circumstances change.
+- Status as of: 2025-09-16
+- Accessibility: Some datasets may have regained access since last check; links should be verified before use.
+- Future Consideration: Some of these datasets (e.g., missing feedback cases) may be added to the main awesome list if access is granted or if circumstances change.
+
 
 ## 🤝 Contributing
 
