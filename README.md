@@ -1,8 +1,10 @@
-80# Awesome Trajectory Datasets [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+# Awesome Trajectory Datasets [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 A curated list of open datasets containing road traffic trajectories (vehicles and vulnerable road users), with a focus on large-scale, real-world data in global coordinate formats, suitable for traffic analysis, motion prediction, and autonomous systems research. 
 
 Several datasets below are already integrated and publicly explorable on [**Trajectory Trace**](https://city.app.sdk-cloud.de/). Look for the 🔍 badge. 
+
+> **📋 Looking for datasets NOT on this list?** See [**EXCLUDED.md**](EXCLUDED.md) for a curated collection of trajectory datasets with documented reasons for exclusion (licensing issues, focus on sensor data, accessibility problems, etc.).
 
 
 ## Mixed Traffic 🚗🚌🚚🏍️ 🚶🚲🛴
