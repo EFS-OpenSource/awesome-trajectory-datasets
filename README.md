@@ -8,11 +8,6 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 ## Mixed Traffic 🚗🚌🚚🏍️ 🚶🚲🛴
 
 <table>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/coming-soon.svg" width="120" style="display:block"></td><td>
-
-**[CitySim](https://github.com/UCF-SST-Lab/UCF-SST-CitySim1-Dataset)** - A Drone-Based Vehicle Trajectory Dataset for Safety Oriented Research and Digital Twins (2023): 12 locations (USA) · drone · ~1,140 trajectories, 30 Hz· CC-BY-NC 4.0 · [Data on Request](https://github.com/UCF-SST-Lab/UCF-SST-CitySim1-Dataset/tree/main/data) · [Paper](https://arxiv.org/abs/2208.11036)
-
-</td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/dlrut.gif" width="220" style="display:block"></a></td><td>
 
 **[DLR UT](https://zenodo.org/records/15754836)** - **DLR** **U**rban **T**raffic (2023):  Brunswick (Germany) · stereo cams · 12 h, 20 Hz, inner ring road · trajectories, traffic lights, local weather, air quality, road conditions · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/15754836) · [Paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.174000540.08271707/v1) · [🔍](https://city.app.sdk-cloud.de/location/24)
@@ -23,24 +18,9 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 **[DrivIng](https://github.com/cvims/DrivIng)** - A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration (2025): Ingolstadt (Germany) · 10 Hz cams, lidars, 18km ego vehicle · CC BY-NC-ND 4.0 · [Direct Download](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VBZKDY) · [Paper](https://arxiv.org/pdf/2601.15260)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/coming-soon.svg" width="120" style="display:block"></td><td>
-
-**[GeoLife](https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/)** - Geolife GPS trajectory dataset (2012): · Beijing (China) · GNSS · 182 users, 5 years, multi-modal, 0.2-1 Hz · MSR-LA (NC) · [Direct Download](https://www.microsoft.com/en-us/download/details.aspx?id=52367) · [User Guide](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/User20Guide-1.2.pdf)
-
-</td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/coming-soon.svg" width="120" style="display:block"></td><td>
-
-**[INTERACTION](https://interaction-dataset.com/)** - **INTER**national, **A**dversarial and **C**ooperative mo**TION** Dataset (2019): Multi-country · 10 Hz drone or cam · ~16 locations: merges, roundabouts, intersections · No explicit license provided by the authors · [Data On Request](https://docs.google.com/forms/d/e/1FAIpQLSdX1XM14idrtHEd9HIiUMCCbiiQZlvwJTaixY8U4PfXCqJ5Zg/viewform) · [Paper](https://arxiv.org/abs/1910.03088) · [GIT](https://github.com/interaction-dataset/interaction-dataset)
-
-</td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/opendd.gif" width="220" style="display:block"></a></td><td>
 
 **[OpenDD](https://l3pilot.eu/data/opendd.html)** - A Large-Scale Roundabout Drone Dataset (2020): 7 roundabouts (Germany) · 84k+ tracks, over 62 hours · CC-BY-ND 4.0 · [Direct Download](https://l3pilot.eu/data/opendd.html#downloads) · [Paper](https://arxiv.org/abs/2007.08463) · [🔍](https://city.app.sdk-cloud.de/location/42)
-
-</td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/coming-soon.svg" width="120" style="display:block"></td><td>
-
-**[SinD](https://github.com/SOTIF-AVLab/SinD)** - A Drone Dataset at Signalized Intersection in China (2022): Changsha (China) · drone · ~14k tracks at signalized intersections · CC0 1.0 Universal · Demo data in Repo, [Full Data on Request](https://github.com/SOTIF-AVLab/SinD#-dataset-access) · [Paper](https://arxiv.org/abs/2209.02297)
 
 </td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/tumdoting.gif" width="220" style="display:block"></a></td><td>
