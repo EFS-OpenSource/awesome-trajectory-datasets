@@ -20,6 +20,8 @@ Domains covered: road traffic (vehicles + VRUs) - and maybe soon aerial (UAV/air
 - Private or institutional datasets with no public access path
 - Image/video datasets without extracted trajectory annotations
 
+See also [EXCLUDED](EXCLUDED.md) for datasets, that are not on the awesome-trajectory-datasets list
+
 ## How to add a dataset
 
 1. Fork this repository

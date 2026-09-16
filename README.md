@@ -4,9 +4,6 @@ A curated list of open datasets containing road traffic trajectories (vehicles a
 
 Several datasets below are already integrated and publicly explorable on [**Trajectory Trace**](https://city.app.sdk-cloud.de/). Look for the 🔍 badge. 
 
-> **📋 Looking for datasets NOT on this list?** See [**EXCLUDED.md**](EXCLUDED.md) for a curated collection of trajectory datasets with documented reasons for exclusion (licensing issues, focus on sensor data, accessibility problems, etc.).
-
-
 ## Mixed Traffic 🚗🚌🚚🏍️ 🚶🚲🛴
 
 <table>
@@ -114,12 +111,18 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 </td></tr>
 </table>
 
+## Awful Trajectory Datasets
+
+Looking for datasets NOT on this list? 
+
+See [**EXCLUDED.md**](EXCLUDED.md) for a curated collection of trajectory datasets with documented reasons for exclusion (licensing issues, focus on sensor data, accessibility problems, etc.).
 
 ## Contributing
 
 Contributions are very welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting a PR.
 
 Quick checklist for adding a dataset or live feed:
+- [ ] There is not yet an entry on Awesome or Awful Trajectory Datasets
 - [ ] The data is publicly accessible (free download, registration, or free-tier API)
 - [ ] It contains trajectory data (x/y/t - positions over time)
 - [ ] A citable source (paper, DOI, or official website) exists
@@ -129,7 +132,7 @@ Quick checklist for adding a dataset or live feed:
 If your dataset shall be integrated into [Trajectory Trace](https://city.app.sdk-cloud.de/), mention it in the PR - we'll integrate it and add the 🔍 badge.
 
 
-## Related Lists
+## Related Lists / Projects
 
 - [Awesome-Interaction-Aware-Trajectory-Prediction](https://github.com/jiachenli94/Awesome-Interaction-aware-Trajectory-Prediction)
 - [awesome-public-datasets#transportation](https://github.com/awesomedata/awesome-public-datasets#transportation)
