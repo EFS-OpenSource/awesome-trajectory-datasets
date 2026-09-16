@@ -40,7 +40,7 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 </td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/videtec.gif" width="220" style="display:block"></a></td><td>
 
-**[VIDETEC-2](https://zenodo.org/records/17799385)** - A Multi-Modal UWB-Radar-Camera Dataset for Vulnerable-Road-User Sensing at Urban Intersections (2025): Munich (Germany) · dense static mesh of 15 UWB transceivers, two infrastructure-mounted FMCW radars, a network of calibrated HD cameras, and RTK-GNSS reference data from a test VRU, 25 Hz, over one hour on 2 days · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/17799385) · [Project Site](https://www.videtec-projekt.de/) · [Paper](https://elib.dlr.de/223680/) · [🔍](https://city.app.sdk-cloud.de/location/53)
+**[VIDETEC-2](https://zenodo.org/records/17799385)** - A Multi-Modal UWB-Radar-Camera Dataset for Vulnerable-Road-User Sensing at Urban Intersections (2025): Munich (Germany) · 15 UWB transceivers, 2 FMCW radars, 1 HD cameras, 1 RTK-GNSS reference data from test VRU, 25 Hz · one hour on 2 days · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/17799385) · [Project Site](https://www.videtec-projekt.de/) · [Paper](https://elib.dlr.de/223680/) · [🔍](https://city.app.sdk-cloud.de/location/53)
 
 </td></tr>
 </table>
