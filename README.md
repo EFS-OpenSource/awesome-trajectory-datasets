@@ -35,12 +35,12 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 </td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/urbaning.gif" width="220" style="display:block"></a></td><td>
 
-**[UrbanIng-V2X](https://thi-ad.github.io/urbaning/)** - A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception (2025): Ingolstadt (Germany) · LiDAR, rgb cam, thermal cam, GNSS/IMU · V2X cooperative perception at 3 intersections, 34 sequences × 20 s, ~712k annotated instances at 10 Hz · CC-BY-NC-ND 4.0 · [Direct Download](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/A9LPY7) · [GIT](https://github.com/thi-ad/UrbanIng-V2X) · [Paper](https://arxiv.org/abs/2510.23478) · [🔍](https://city.app.sdk-cloud.de/location/30)
+**[UrbanIng-V2X](https://thi-ad.github.io/urbaning/)** - A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception (2025): Ingolstadt (Germany) · LiDAR, rgb cam, thermal cam, GNSS/IMU at 3 intersections, 34 sequences × 20 s, ~712k annotated instances at 10 Hz · CC-BY-NC-ND 4.0 · [Direct Download](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/A9LPY7) · [GIT](https://github.com/thi-ad/UrbanIng-V2X) · [Paper](https://arxiv.org/abs/2510.23478) · [🔍](https://city.app.sdk-cloud.de/location/30)
 
 </td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/videtec.gif" width="220" style="display:block"></a></td><td>
 
-**[VIDETEC-2](https://zenodo.org/records/17799385)** - A Multi-Modal UWB-Radar-Camera Dataset for Vulnerable-Road-User Sensing at Urban Intersections (2025): Munich (Germany) · rgb cam, radar, GNSS · synchronized multi-modal measurement data for vulnerable road user (VRU) sensing at an urban intersection, 1h on 2 days, 5 gps vru tracks · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/17799385) · [Project Site](https://www.videtec-projekt.de/) · [Paper](https://elib.dlr.de/223680/) · [🔍](https://city.app.sdk-cloud.de/location/53)
+**[VIDETEC-2](https://zenodo.org/records/17799385)** - A Multi-Modal UWB-Radar-Camera Dataset for Vulnerable-Road-User Sensing at Urban Intersections (2025): Munich (Germany) · dense static mesh of 15 UWB transceivers, two infrastructure-mounted FMCW radars, a network of calibrated HD cameras, and RTK-GNSS reference data from a test VRU, 25 Hz, over one hour on 2 days · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/17799385) · [Project Site](https://www.videtec-projekt.de/) · [Paper](https://elib.dlr.de/223680/) · [🔍](https://city.app.sdk-cloud.de/location/53)
 
 </td></tr>
 </table>

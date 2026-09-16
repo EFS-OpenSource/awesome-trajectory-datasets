@@ -35,7 +35,7 @@ A curated list of datasets related to road traffic trajectories that are **not**
 
 ## Focus on Single Tracks, not Traffic 📍
 
-| Dataset | Year | Location | Limitation |
+| Dataset | Year | Location | Reason |
 |---------|------|----------|-----------|
 | **[GeoLife](https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/)** | 2012 | Beijing, China | Mixed personal + traffic |
 | **[Single-User Trajectory Collection (Hannover)](https://data.uni-hannover.de/dataset/single-user-trajectory-collection-for-the-region-of-hannover)** | — | Hannover, Germany | Single vehicle personal tracking |
@@ -44,7 +44,7 @@ A curated list of datasets related to road traffic trajectories that are **not**
 
 ## Focus on Pedestrians/Crowds 🚶
 
-| Dataset | Year | Location | Limitation |
+| Dataset | Year | Location | Reason |
 |---------|------|----------|-----------|
 | **[ATC Shopping Center](https://irc.atr.jp/crest2010_HRI/ATC_dataset/)** | 2013 | Osaka, Japan | Relative/indoor coordinates, not geospatial |
 | **[Bicycle Driving Behaviour in Germany](https://opara.zih.tu-dresden.de/items/5cd85d7f-e86b-496d-98fb-21c509ba72ef)** | 2024 | Germany | Only start and end gps data |
