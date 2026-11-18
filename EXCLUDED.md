@@ -13,6 +13,7 @@ A curated list of datasets related to road traffic trajectories that are **not**
 | **[Lyft Level 5](https://self-driving.lyft.com/level5/data/)** | 2020 | Palo Alto, USA | Server Not Found |
 | **[SinD](https://github.com/SOTIF-AVLab/SinD)** | 2022 | Changsha, China | Data requested, but no feedback |
 | **[Stanford Drone (SDD)](https://cvgl.stanford.edu/projects/uav_data/)** | 2016 | Stanford, USA | Download Dataset -> The connection has timed out, not georeferenced |
+| **[DrivIng](https://github.com/cvims/DrivIng)** | 2025 | Ingolstadt, Germany | 211 tar.gz files (each 2.4 GB) to access the trajectories |
 
 
 ## Focus on Sensor/Perception Data 🎥

@@ -13,11 +13,6 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 **[DLR UT](https://zenodo.org/records/15754836)** - **DLR** **U**rban **T**raffic (2023):  Brunswick (Germany) · stereo cams · 12 h, 20 Hz, inner ring road · trajectories, traffic lights, local weather, air quality, road conditions · CC-BY 4.0 · [Direct Download](https://zenodo.org/records/15754836) · [Paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.174000540.08271707/v1) · [🔍](https://city.app.sdk-cloud.de/location/24)
 
 </td></tr>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/coming-soon.svg" width="120" style="display:block"></td><td>
-
-**[DrivIng](https://github.com/cvims/DrivIng)** - A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration (2025): Ingolstadt (Germany) · 10 Hz cams, lidars, 18km ego vehicle · CC BY-NC-ND 4.0 · [Direct Download](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VBZKDY) · [Paper](https://arxiv.org/pdf/2601.15260)
-
-</td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/opendd.gif" width="220" style="display:block"></a></td><td>
 
 **[OpenDD](https://l3pilot.eu/data/opendd.html)** - A Large-Scale Roundabout Drone Dataset (2020): 7 roundabouts (Germany) · 84k+ tracks, over 62 hours · CC-BY-ND 4.0 · [Direct Download](https://l3pilot.eu/data/opendd.html#downloads) · [Paper](https://arxiv.org/abs/2007.08463) · [🔍](https://city.app.sdk-cloud.de/location/42)
@@ -30,7 +25,7 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 </td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/tumdotmuc.gif" width="220" style="display:block"></a></td><td>
 
-**[TUMDOT-MUC](https://www.mos.ed.tum.de/en/vt/research/data-sets/tumdot-muc/)** - **T**rajectories from **U**rban **M**ultimodal **D**rone **O**bservations of **T**raffic **Mu**ni**c**h (2022): Munich (Germany) · 12 drones · 6 locations, >3 h each, 700 m continuous section along Rheinstraße, 25 Hz · CC-BY-NC 4.0 · [Direct Download](https://syncandshare.lrz.de/getlink/fiD1PMw4bRxbgWggvTtTTJ/) · [Paper](https://doi.org/10.1007/s42421-024-00101-5) · [🔍](https://city.app.sdk-cloud.de/location/12)
+**[TUMDOT-MUC](https://www.mos.ed.tum.de/en/vt/research/datasets/tumdot-muc/)** - **T**rajectories from **U**rban **M**ultimodal **D**rone **O**bservations of **T**raffic **Mu**ni**c**h (2022): Munich (Germany) · 12 drones · 6 locations, >3 h each, 700 m continuous section along Rheinstraße, 25 Hz · CC-BY-NC 4.0 · [Direct Download](https://syncandshare.lrz.de/getlink/fiD1PMw4bRxbgWggvTtTTJ/) · [Paper](https://doi.org/10.1007/s42421-024-00101-5) · [🔍](https://city.app.sdk-cloud.de/location/12)
 
 </td></tr>
 <tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/urbaning.gif" width="220" style="display:block"></a></td><td>
