@@ -55,7 +55,7 @@ Several datasets below are already integrated and publicly explorable on [**Traj
 ## Just Vehicles 🚗🚌🚚🏍️
 
 <table>
-<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/automatum.gif" width="220" style="display:block"></a></td><td>
+<tr><td align="center" valign="middle" width="220" style="padding:0;vertical-align:middle"><img src="gifs/automatum.gif" width="220" style="display:block" alt="Automatum roundabout"></td><td>
 
 **[Automatum Data](https://automatum-data.com/de#dataset)**: Bavaria (Germany) · drone · 30 h · CC BY-ND / demo · [Data On Request](https://automatum-data.com/de/get-free-dataset) · [Paper](https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf) · [🔍highway](https://city.app.sdk-cloud.de/location/29) · [🔍roundabout](https://city.app.sdk-cloud.de/location/32)
 
